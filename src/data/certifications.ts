@@ -45,5 +45,14 @@ export const certificationsData: Certification[] = [
     skillsCovered: ["Financial Controls", "Risk Governance", "Process Automation", "Auditing & Compliance"],
     verifyUrl: "https://drive.google.com/file/d/1LjgvBKR7YT_vgFglRO4707xmbXB2-Nnb/view?usp=sharing",
     badgeColor: "var(--color-green)"
+  },
+  {
+    id: "infosys-machine-learning",
+    title: "Explore Machine Learning using Python",
+    issuer: "Infosys",
+    year: "2024",
+    skillsCovered: ["Machine Learning", "Python", "Scikit-Learn", "Data Preprocessing", "Model Training"],
+    verifyUrl: "https://drive.google.com/file/d/1g5kh4lEa1QpOqV5x0ED4dC5BFUaYySvC/view?usp=sharing",
+    badgeColor: "var(--color-yellow)"
   }
 ];
