@@ -64,7 +64,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onSelectTab }) => {
             className="neo-navbar__mobile-brand"
             aria-label="Go to Home"
           >
-            MUTHU.B
+            AZTRIX
           </button>
 
           {/* Desktop Nav Links */}
@@ -133,7 +133,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onSelectTab }) => {
         <div>
           <div className="neo-drawer__header">
             <span style={{ fontFamily: 'var(--font-heading)', fontWeight: 900, fontSize: '1.4rem' }}>
-              MUTHU.B
+              AZTRIX
             </span>
             <button
               type="button"
