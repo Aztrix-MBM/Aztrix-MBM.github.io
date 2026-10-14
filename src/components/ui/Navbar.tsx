@@ -1,49 +1,30 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { IconArrowUpRight, IconMenu, IconClose } from './Icons';
 
-interface NavItem {
+export interface NavItem {
   label: string;
-  href: string;
   id: string;
 }
 
-const navItems: NavItem[] = [
-  { label: 'HOME', href: '#home', id: 'home' },
-  { label: 'ABOUT', href: '#about', id: 'about' },
-  { label: 'SKILLS', href: '#skills', id: 'skills' },
-  { label: 'PROJECTS', href: '#projects', id: 'projects' },
-  { label: 'CERTS', href: '#certifications', id: 'certifications' },
-  { label: 'RESUME', href: '#resume', id: 'resume' },
-  { label: 'CONTACT', href: '#contact', id: 'contact' }
+export const navItems: NavItem[] = [
+  { label: 'HOME', id: 'home' },
+  { label: 'ABOUT', id: 'about' },
+  { label: 'SKILLS', id: 'skills' },
+  { label: 'PROJECTS', id: 'projects' },
+  { label: 'CERTS', id: 'certifications' },
+  { label: 'RESUME', id: 'resume' },
+  { label: 'CONTACT', id: 'contact' }
 ];
 
-export const Navbar: React.FC = () => {
-  const [activeSection, setActiveSection] = useState<string>('home');
+interface NavbarProps {
+  activeTab: string;
+  onSelectTab: (tabId: string) => void;
+}
+
+export const Navbar: React.FC<NavbarProps> = ({ activeTab, onSelectTab }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
   const drawerRef = useRef<HTMLDivElement>(null);
   const toggleBtnRef = useRef<HTMLButtonElement>(null);
-
-  // Active section spy on scroll
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPos = window.scrollY + 140;
-      for (let i = navItems.length - 1; i >= 0; i--) {
-        const item = navItems[i];
-        const el = document.getElementById(item.id);
-        if (el) {
-          const top = el.offsetTop;
-          if (scrollPos >= top) {
-            setActiveSection(item.id);
-            break;
-          }
-        }
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    handleScroll();
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   // Handle ESC key to close mobile menu
   useEffect(() => {
@@ -66,51 +47,41 @@ export const Navbar: React.FC = () => {
     }
   }, [isMobileMenuOpen]);
 
-  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    e.preventDefault();
+  const handleItemClick = (tabId: string) => {
+    onSelectTab(tabId);
     setIsMobileMenuOpen(false);
-    const targetId = href.replace('#', '');
-    const element = document.getElementById(targetId);
-    if (element) {
-      const navOffset = 90;
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - navOffset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
-      window.history.pushState(null, '', href);
-    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
     <>
       <header className="neo-navbar">
         <nav className="neo-navbar__inner" aria-label="Main Navigation">
-          <a
-            href="#home"
+          <button
+            type="button"
             className="neo-navbar__logo"
-            onClick={(e) => handleNavClick(e, '#home')}
+            onClick={() => handleItemClick('home')}
             aria-label="Muthu Balamurugan Home"
+            style={{ background: 'none', border: 'none', borderRight: 'var(--border-width) solid var(--color-black)', cursor: 'pointer' }}
           >
             M.
-          </a>
+          </button>
 
           {/* Desktop Nav Links */}
           <ul className="neo-navbar__links" role="list">
             {navItems.map((item) => {
-              const isActive = activeSection === item.id;
+              const isActive = activeTab === item.id;
               return (
                 <li key={item.id}>
-                  <a
-                    href={item.href}
-                    onClick={(e) => handleNavClick(e, item.href)}
+                  <button
+                    type="button"
+                    onClick={() => handleItemClick(item.id)}
                     className={`neo-navbar__link ${isActive ? 'neo-navbar__link--active' : ''}`}
                     aria-current={isActive ? 'page' : undefined}
+                    style={{ background: 'none', cursor: 'pointer' }}
                   >
                     {item.label}
-                  </a>
+                  </button>
                 </li>
               );
             })}
@@ -118,14 +89,14 @@ export const Navbar: React.FC = () => {
 
           {/* Right Action Button */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <a
-              href="#contact"
-              onClick={(e) => handleNavClick(e, '#contact')}
+            <button
+              type="button"
+              onClick={() => handleItemClick('contact')}
               className="neo-navbar__cta"
             >
               <span>LET'S TALK</span>
               <IconArrowUpRight size={16} />
-            </a>
+            </button>
 
             {/* Mobile Hamburger Toggle */}
             <button
@@ -177,17 +148,18 @@ export const Navbar: React.FC = () => {
 
           <ul className="neo-drawer__links" role="list">
             {navItems.map((item) => {
-              const isActive = activeSection === item.id;
+              const isActive = activeTab === item.id;
               return (
                 <li key={item.id}>
-                  <a
-                    href={item.href}
-                    onClick={(e) => handleNavClick(e, item.href)}
+                  <button
+                    type="button"
+                    onClick={() => handleItemClick(item.id)}
                     className={`neo-drawer__link ${isActive ? 'neo-drawer__link--active' : ''}`}
                     aria-current={isActive ? 'page' : undefined}
+                    style={{ width: '100%', textAlign: 'left', cursor: 'pointer' }}
                   >
                     {item.label}
-                  </a>
+                  </button>
                 </li>
               );
             })}
@@ -195,15 +167,15 @@ export const Navbar: React.FC = () => {
         </div>
 
         <div style={{ marginTop: '24px' }}>
-          <a
-            href="#contact"
-            onClick={(e) => handleNavClick(e, '#contact')}
+          <button
+            type="button"
+            onClick={() => handleItemClick('contact')}
             className="neo-btn neo-btn--yellow"
-            style={{ width: '100%' }}
+            style={{ width: '100%', cursor: 'pointer' }}
           >
             <span>GET IN TOUCH</span>
             <IconArrowUpRight size={18} />
-          </a>
+          </button>
         </div>
       </div>
     </>

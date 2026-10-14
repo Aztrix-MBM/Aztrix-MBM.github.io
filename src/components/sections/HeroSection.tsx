@@ -1,6 +1,5 @@
 import React from 'react';
 import { personalData } from '../../data/personal';
-import { toolsRibbon } from '../../data/skills';
 import {
   IconArrowUpRight,
   IconDownload,
@@ -14,7 +13,11 @@ import {
   IconUsers
 } from '../ui/Icons';
 
-export const HeroSection: React.FC = () => {
+interface HeroSectionProps {
+  onNavigate?: (tabId: string) => void;
+}
+
+export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
   const getStatIcon = (iconName: string) => {
     switch (iconName) {
       case 'folder':
@@ -45,20 +48,16 @@ export const HeroSection: React.FC = () => {
     }
   };
 
-  const scrollToProjects = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleWorkClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    const el = document.getElementById('projects');
-    if (el) {
-      const navOffset = 90;
-      const elementPosition = el.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - navOffset;
-      window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
-      window.history.pushState(null, '', '#projects');
+    if (onNavigate) {
+      onNavigate('projects');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
 
   return (
-    <section id="home" className="section" style={{ paddingTop: 'clamp(2rem, 4vw, 3.5rem)', paddingBottom: '2rem' }}>
+    <section id="home" className="section tab-content-enter" style={{ paddingTop: 'clamp(2rem, 4vw, 3.5rem)', paddingBottom: '3rem' }}>
       <div className="container">
         <div className="hero-grid">
           {/* Left Column: Intro copy & Actions */}
@@ -81,14 +80,14 @@ export const HeroSection: React.FC = () => {
             </p>
 
             <div className="hero-actions">
-              <a
-                href="#projects"
-                onClick={scrollToProjects}
+              <button
+                type="button"
+                onClick={handleWorkClick}
                 className="neo-btn neo-btn--yellow"
               >
                 <span>VIEW MY WORK</span>
                 <IconArrowUpRight size={18} />
-              </a>
+              </button>
 
               <a
                 href="/resume/Muthubala_Resume.pdf"
@@ -160,7 +159,6 @@ export const HeroSection: React.FC = () => {
 
               {/* Wireframe Mesh & Disciplines */}
               <div className="hero-wireframe-badge" aria-hidden="true">
-                {/* 3D Wireframe Orb SVG */}
                 <svg width="80" height="50" viewBox="0 0 100 60" fill="none" stroke="currentColor" strokeWidth="1.5">
                   <ellipse cx="50" cy="30" rx="46" ry="26" />
                   <ellipse cx="50" cy="30" rx="30" ry="26" strokeDasharray="3 3" />
@@ -182,7 +180,19 @@ export const HeroSection: React.FC = () => {
         {/* 4 Neo-Brutalist Stat Cards */}
         <div className="hero-stats-row">
           {personalData.stats.map((stat) => (
-            <div key={stat.label} className="hero-stat-card">
+            <div
+              key={stat.label}
+              className="hero-stat-card"
+              style={{ cursor: onNavigate ? 'pointer' : 'default' }}
+              onClick={() => {
+                if (onNavigate) {
+                  if (stat.label.includes('PROJECTS')) onNavigate('projects');
+                  else if (stat.label.includes('TECH')) onNavigate('skills');
+                  else if (stat.label.includes('HACKATHON') || stat.label.includes('CGPA')) onNavigate('about');
+                }
+              }}
+              title={onNavigate ? `View ${stat.label} details` : undefined}
+            >
               <div className="hero-stat-card__icon" aria-hidden="true">
                 {getStatIcon(stat.icon)}
               </div>
@@ -190,48 +200,6 @@ export const HeroSection: React.FC = () => {
               <div className="hero-stat-card__label">{stat.label}</div>
             </div>
           ))}
-        </div>
-      </div>
-
-      {/* Tools Ribbon / Lavender Marquee Band */}
-      <div className="tools-ribbon-wrapper">
-        <div className="container">
-          <div className="tools-ribbon-container">
-            <div className="tools-ribbon__header">
-              <span>TOOLS I USE</span>
-              <svg width="32" height="16" viewBox="0 0 32 16" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <line x1="2" y1="8" x2="28" y2="8" />
-                <polyline points="20 2 28 8 20 14" />
-              </svg>
-            </div>
-
-            <div className="tools-ribbon__list" role="region" aria-label="Tools and Technologies">
-              {toolsRibbon.map((tool) => (
-                <div key={tool.name} className="tool-badge-card" title={`${tool.name} - ${tool.category}`}>
-                  <span
-                    style={{
-                      width: 10,
-                      height: 10,
-                      borderRadius: 2,
-                      backgroundColor: tool.color,
-                      display: 'inline-block',
-                      border: '1.5px solid #000'
-                    }}
-                    aria-hidden="true"
-                  />
-                  <span>{tool.name}</span>
-                </div>
-              ))}
-            </div>
-
-            <div className="tools-ribbon__footer-note">
-              <svg width="24" height="24" viewBox="0 0 30 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M25 4 C 15 2, 8 12, 4 16" />
-                <polyline points="10 16 4 16 6 10" />
-              </svg>
-              <span>SAME TOOLS, DIFFERENT POSSIBILITIES</span>
-            </div>
-          </div>
         </div>
       </div>
     </section>

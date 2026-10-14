@@ -1,9 +1,19 @@
 import React from 'react';
 import { personalData } from '../../data/personal';
+import { navItems } from './Navbar';
 import { IconArrowUpRight, IconGithub, IconLinkedin, IconTwitter } from './Icons';
 
-export const Footer: React.FC = () => {
+interface FooterProps {
+  onSelectTab: (tabId: string) => void;
+}
+
+export const Footer: React.FC<FooterProps> = ({ onSelectTab }) => {
   const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleLinkClick = (tabId: string) => {
+    onSelectTab(tabId);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -23,13 +33,18 @@ export const Footer: React.FC = () => {
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'flex-start' }}>
             <ul className="neo-footer__links" role="list">
-              <li><a href="#home" className="neo-footer__link">Home</a></li>
-              <li><a href="#about" className="neo-footer__link">About</a></li>
-              <li><a href="#skills" className="neo-footer__link">Skills</a></li>
-              <li><a href="#projects" className="neo-footer__link">Projects</a></li>
-              <li><a href="#certifications" className="neo-footer__link">Certs</a></li>
-              <li><a href="#resume" className="neo-footer__link">Resume</a></li>
-              <li><a href="#contact" className="neo-footer__link">Contact</a></li>
+              {navItems.map((item) => (
+                <li key={item.id}>
+                  <button
+                    type="button"
+                    onClick={() => handleLinkClick(item.id)}
+                    className="neo-footer__link"
+                    style={{ background: 'none', border: 'none', cursor: 'pointer' }}
+                  >
+                    {item.label}
+                  </button>
+                </li>
+              ))}
             </ul>
 
             <div style={{ display: 'flex', gap: '10px' }}>
