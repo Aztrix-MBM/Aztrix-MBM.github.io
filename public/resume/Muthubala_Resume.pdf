@@ -1,0 +1,119 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2948 >>
+stream
+BT
+/F1 20 Tf
+50 740 Td
+(MUTHU BALAMURUGAN) Tj
+0 -18 Td
+/F2 10 Tf
+(AI & Data Science Student | Full-Stack & Generative AI Developer) Tj
+0 -14 Td
+/F2 9 Tf
+(Email: muthubalamurugan.dev@gmail.com  |  GitHub: github.com/muthubalamurugan  |  LinkedIn: linkedin.com/in/muthubalamurugan) Tj
+0 -22 Td
+/F1 12 Tf
+(SUMMARY) Tj
+0 -14 Td
+/F2 9 Tf
+(AI & Data Science undergraduate passionate about building high-performance web applications, generative AI systems,) Tj
+0 -12 Td
+(and hardware integrations. Experienced in React, Next.js, Python, TypeScript, and intelligent agent workflows.) Tj
+0 -22 Td
+/F1 12 Tf
+(EDUCATION) Tj
+0 -14 Td
+/F1 10 Tf
+(B.Tech in Artificial Intelligence & Data Science) Tj
+0 -12 Td
+/F2 9 Tf
+(Cumulative GPA: 7.8 / 10.0  |  Relevant Coursework: Machine Learning, Deep Learning, Data Structures & Algorithms,) Tj
+0 -12 Td
+(Database Management Systems, Computer Networks, Operating Systems, IoT & Embedded Systems) Tj
+0 -22 Td
+/F1 12 Tf
+(TECHNICAL SKILLS) Tj
+0 -14 Td
+/F2 9 Tf
+(Languages: Python, JavaScript, TypeScript, Java, C++, SQL, HTML5, CSS3) Tj
+0 -12 Td
+(Frameworks & Web: React.js, Next.js, Node.js, Express, FastAPI, Tailwind CSS, REST APIs) Tj
+0 -12 Td
+(AI & Machine Learning: PyTorch, TensorFlow, OpenCV, MediaPipe, LangChain, Hugging Face, Gemini API, Scikit-Learn) Tj
+0 -12 Td
+(Databases & Tools: PostgreSQL, Supabase, MongoDB, MySQL, Git, GitHub, Docker, Postman, Linux) Tj
+0 -12 Td
+(Hardware & IoT: Arduino, ESP32, MQTT, Sensors & Actuators, Embedded C++) Tj
+0 -22 Td
+/F1 12 Tf
+(FEATURED PROJECTS) Tj
+0 -14 Td
+/F1 10 Tf
+(EchoVerse AI - Multiverse & Temporal Exploration Platform) Tj
+0 -12 Td
+/F2 9 Tf
+(- Engineered a multi-agent generative storytelling platform simulating past, parallel reality, and future timelines.) Tj
+0 -12 Td
+(- Integrated streaming LLM APIs with real-time responsive visual graph state rendering in React and FastAPI.) Tj
+0 -16 Td
+/F1 10 Tf
+(AI Student OS - Unified Academic Productivity Platform) Tj
+0 -12 Td
+/F2 9 Tf
+(- Architected a comprehensive productivity suite consolidating notes summarization, course roadmaps, and tracking.) Tj
+0 -12 Td
+(- Built real-time sync with Supabase and automated spaced repetition flashcard generation.) Tj
+0 -16 Td
+/F1 10 Tf
+(Motor Health Monitor - IoT Industrial Anomaly Detection) Tj
+0 -12 Td
+/F2 9 Tf
+(- Designed an edge IoT predictive diagnostic system with Arduino, vibration sensors, and thermal monitoring.) Tj
+0 -12 Td
+(- Streamed sensor telemetry over MQTT to a Python analytics dashboard with automated threshold alerting.) Tj
+0 -22 Td
+/F1 12 Tf
+(CERTIFICATIONS & ACHIEVEMENTS) Tj
+0 -14 Td
+/F2 9 Tf
+(- Deep Learning & Generative AI Specialization - DeepLearning.AI / Coursera (2025)) Tj
+0 -12 Td
+(- Full-Stack Web Development Professional Certificate - Meta / freeCodeCamp (2024)) Tj
+0 -12 Td
+(- Embedded Systems & IoT Engineering - Infosys Springboard (2024)) Tj
+0 -12 Td
+(- 2x Hackathon Finalist & Top Contributor in Collegiate AI Challenges) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000263 00000 n 
+0000003263 00000 n 
+0000003338 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3408
+%%EOF

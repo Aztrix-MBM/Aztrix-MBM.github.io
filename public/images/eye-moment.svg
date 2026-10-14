@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <!-- Eye Movement Vision HUD Preview -->
+  <rect width="600" height="360" fill="#080c14"/>
+  <rect x="0" y="0" width="600" height="36" fill="#111827"/>
+  <circle cx="20" cy="18" r="5" fill="#ef4444"/>
+  <circle cx="36" cy="18" r="5" fill="#f59e0b"/>
+  <circle cx="52" cy="18" r="5" fill="#10b981"/>
+  <text x="75" y="23" fill="#a78bfa" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="12">Eye Moment • OpenCV / MediaPipe Vision HUD</text>
+  <text x="490" y="23" fill="#38bdf8" font-family="'Space Mono', monospace" font-size="10">60 FPS • Gaze Calibrated</text>
+
+  <!-- HUD Grid -->
+  <circle cx="300" cy="190" r="130" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="6 6"/>
+  <circle cx="300" cy="190" r="80" fill="none" stroke="#1e293b" stroke-width="1"/>
+  <line x1="150" y1="190" x2="450" y2="190" stroke="#1e293b" stroke-width="1"/>
+  <line x1="300" y1="50" x2="300" y2="330" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Stylized Face / Eye Tracking Mesh -->
+  <!-- Left Eye -->
+  <ellipse cx="230" cy="175" rx="35" ry="20" fill="#0f172a" stroke="#818cf8" stroke-width="2"/>
+  <circle cx="230" cy="175" r="12" fill="#312e81" stroke="#a78bfa" stroke-width="2"/>
+  <circle cx="232" cy="173" r="5" fill="#38bdf8"/>
+  <line x1="210" y1="175" x2="250" y2="175" stroke="#38bdf8" stroke-width="1"/>
+  <line x1="230" y1="160" x2="230" y2="190" stroke="#38bdf8" stroke-width="1"/>
+
+  <!-- Right Eye -->
+  <ellipse cx="370" cy="175" rx="35" ry="20" fill="#0f172a" stroke="#818cf8" stroke-width="2"/>
+  <circle cx="370" cy="175" r="12" fill="#312e81" stroke="#a78bfa" stroke-width="2"/>
+  <circle cx="372" cy="173" r="5" fill="#38bdf8"/>
+  <line x1="350" y1="175" x2="390" y2="175" stroke="#38bdf8" stroke-width="1"/>
+  <line x1="370" y1="160" x2="370" y2="190" stroke="#38bdf8" stroke-width="1"/>
+
+  <!-- Gaze Target Reticle -->
+  <circle cx="330" cy="150" r="18" fill="none" stroke="#f43f5e" stroke-width="2"/>
+  <circle cx="330" cy="150" r="4" fill="#f43f5e"/>
+  <line x1="232" y1="173" x2="330" y2="150" stroke="#ec4899" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <line x1="372" y1="173" x2="330" y2="150" stroke="#ec4899" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- Overlay Telemetry Boxes -->
+  <rect x="30" y="50" width="160" height="70" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="42" y="70" fill="#94a3b8" font-family="'Space Mono', monospace" font-size="9">GAZE COORD (X, Y)</text>
+  <text x="42" y="92" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="16">1084, 526 px</text>
+  <text x="42" y="108" fill="#10b981" font-family="'Space Mono', monospace" font-size="9">Confidence: 98.4%</text>
+
+  <rect x="410" y="270" width="160" height="70" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="422" y="290" fill="#94a3b8" font-family="'Space Mono', monospace" font-size="9">BLINK DETECTOR</text>
+  <text x="422" y="312" fill="#a855f7" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="15">CLICK TRIGGER: OFF</text>
+  <text x="422" y="328" fill="#e2e8f0" font-family="'Space Mono', monospace" font-size="9">EAR Ratio: 0.31</text>
+</svg>

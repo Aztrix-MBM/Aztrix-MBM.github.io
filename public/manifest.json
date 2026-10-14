@@ -1,0 +1,17 @@
+{
+  "name": "Muthu Balamurugan | AI & Data Science Developer",
+  "short_name": "Muthu Portfolio",
+  "description": "Neo-Brutalist Portfolio of Muthu Balamurugan - AI & Data Science Student, Full-Stack and Systems Builder",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF9F1",
+  "theme_color": "#FFE600",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <!-- AI Student OS Dashboard Mockup matching reference showcase -->
+  <rect width="600" height="360" fill="#0d1117"/>
+  <!-- Top Bar -->
+  <rect x="0" y="0" width="600" height="34" fill="#161b22"/>
+  <circle cx="16" cy="17" r="4.5" fill="#ff5f56"/>
+  <circle cx="30" cy="17" r="4.5" fill="#ffbd2e"/>
+  <circle cx="44" cy="17" r="4.5" fill="#27c93f"/>
+  <text x="70" y="22" fill="#58a6ff" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="12">AI Student OS</text>
+  <rect x="220" y="6" width="220" height="22" rx="4" fill="#21262d"/>
+  <text x="240" y="21" fill="#8b949e" font-family="'Space Mono', monospace" font-size="10">Search courses, notes, exams...</text>
+
+  <!-- Left Sidebar -->
+  <rect x="0" y="34" width="140" height="326" fill="#161b22"/>
+  <!-- User Profile snippet in sidebar -->
+  <rect x="12" y="46" width="116" height="58" rx="6" fill="#21262d"/>
+  <circle cx="32" cy="70" r="14" fill="#58a6ff"/>
+  <text x="32" y="74" fill="#0d1117" font-family="sans-serif" font-weight="bold" font-size="11" text-anchor="middle">MB</text>
+  <text x="54" y="66" fill="#f0f6fc" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="10">Muthu B.</text>
+  <text x="54" y="80" fill="#3fb950" font-family="'Space Mono', monospace" font-size="8">● Online</text>
+
+  <!-- Sidebar Nav items -->
+  <rect x="12" y="118" width="116" height="24" rx="4" fill="#238636" opacity="0.25"/>
+  <text x="24" y="134" fill="#3fb950" font-family="'Space Grotesk', sans-serif" font-weight="600" font-size="10">Dashboard</text>
+  <text x="24" y="162" fill="#8b949e" font-family="'Space Grotesk', sans-serif" font-size="10">Courses (6)</text>
+  <text x="24" y="190" fill="#8b949e" font-family="'Space Grotesk', sans-serif" font-size="10">AI Notes Gen</text>
+  <text x="24" y="218" fill="#8b949e" font-family="'Space Grotesk', sans-serif" font-size="10">Certificates</text>
+  <text x="24" y="246" fill="#8b949e" font-family="'Space Grotesk', sans-serif" font-size="10">Projects</text>
+  <text x="24" y="274" fill="#8b949e" font-family="'Space Grotesk', sans-serif" font-size="10">CGPA Tracker</text>
+  <text x="24" y="330" fill="#8b949e" font-family="'Space Grotesk', sans-serif" font-size="10">Settings</text>
+
+  <!-- Main Content Area -->
+  <!-- Top Stat Cards -->
+  <rect x="154" y="46" width="98" height="50" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="166" y="66" fill="#8b949e" font-family="'Space Mono', monospace" font-size="9">COURSES</text>
+  <text x="166" y="88" fill="#58a6ff" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="18">12</text>
+
+  <rect x="264" y="46" width="98" height="50" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="276" y="66" fill="#8b949e" font-family="'Space Mono', monospace" font-size="9">CERTS</text>
+  <text x="276" y="88" fill="#a371f7" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="18">8</text>
+
+  <rect x="374" y="46" width="98" height="50" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="386" y="66" fill="#8b949e" font-family="'Space Mono', monospace" font-size="9">PROJECTS</text>
+  <text x="386" y="88" fill="#3fb950" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="18">5</text>
+
+  <rect x="484" y="46" width="102" height="50" rx="6" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="496" y="66" fill="#8b949e" font-family="'Space Mono', monospace" font-size="9">CGPA</text>
+  <text x="496" y="88" fill="#f0883e" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="18">7.8</text>
+
+  <!-- Big Analytics Graph Card matching showcase -->
+  <rect x="154" y="108" width="432" height="150" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="170" y="132" fill="#f0f6fc" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="12">Weekly Study &amp; AI Query Velocity</text>
+  <text x="520" y="132" fill="#3fb950" font-family="'Space Mono', monospace" font-size="10">+24.8% ↑</text>
+  <!-- Graph Curves -->
+  <path d="M 170 230 Q 220 210, 270 218 T 370 170 T 470 190 T 560 150" fill="none" stroke="#8957e5" stroke-width="3"/>
+  <path d="M 170 230 Q 220 210, 270 218 T 370 170 T 470 190 T 560 150 L 560 240 L 170 240 Z" fill="#8957e5" opacity="0.15"/>
+  <path d="M 170 235 Q 230 220, 290 200 T 410 205 T 500 175 T 560 170" fill="none" stroke="#388bfd" stroke-width="2" stroke-dasharray="4 2"/>
+  <!-- Axis dots -->
+  <circle cx="370" cy="170" r="4" fill="#8957e5" stroke="#f0f6fc" stroke-width="1.5"/>
+  <circle cx="560" cy="150" r="4" fill="#8957e5" stroke="#f0f6fc" stroke-width="1.5"/>
+
+  <!-- Bottom Task List / Assistant snippet -->
+  <rect x="154" y="270" width="280" height="76" rx="6" fill="#21262d"/>
+  <text x="170" y="290" fill="#f0f6fc" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="11">Upcoming Submissions</text>
+  <rect x="170" y="302" width="10" height="10" rx="2" fill="#238636"/>
+  <text x="188" y="311" fill="#c9d1d9" font-family="'Space Grotesk', sans-serif" font-size="9">Neural Networks Term Paper - Done</text>
+  <rect x="170" y="322" width="10" height="10" rx="2" fill="#d29922"/>
+  <text x="188" y="331" fill="#c9d1d9" font-family="'Space Grotesk', sans-serif" font-size="9">Distributed Systems Lab 4 - Tomorrow</text>
+
+  <!-- AI Copilot Card -->
+  <rect x="446" y="270" width="140" height="76" rx="6" fill="#1f242c" stroke="#58a6ff" stroke-width="1"/>
+  <text x="458" y="290" fill="#58a6ff" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="10">AI Study Assistant</text>
+  <text x="458" y="310" fill="#8b949e" font-family="sans-serif" font-size="8">Generated 18 review flashcards for Operating Systems</text>
+  <rect x="458" y="324" width="70" height="14" rx="3" fill="#58a6ff"/>
+  <text x="493" y="334" fill="#0d1117" font-family="'Space Grotesk', sans-serif" font-weight="bold" font-size="8" text-anchor="middle">Review Now</text>
+</svg>
