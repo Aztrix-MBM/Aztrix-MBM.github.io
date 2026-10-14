@@ -57,16 +57,6 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onSelectTab }) => {
     <>
       <header className="neo-navbar">
         <nav className="neo-navbar__inner" aria-label="Main Navigation">
-          <button
-            type="button"
-            className="neo-navbar__logo"
-            onClick={() => handleItemClick('home')}
-            aria-label="Muthu Balamurugan Home"
-            style={{ background: 'none', border: 'none', borderRight: 'var(--border-width) solid var(--color-black)', cursor: 'pointer' }}
-          >
-            M.
-          </button>
-
           {/* Desktop Nav Links */}
           <ul className="neo-navbar__links" role="list">
             {navItems.map((item) => {

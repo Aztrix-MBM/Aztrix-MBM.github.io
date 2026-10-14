@@ -1854,9 +1854,15 @@ img, svg {
     font-size: 1.35rem;
   }
 
-  .neo-navbar__links,
-  .neo-navbar__cta {
+  .neo-navbar__links {
     display: none;
+  }
+
+  .neo-navbar__cta {
+    display: inline-flex;
+    padding: 6px 14px;
+    font-size: 0.75rem;
+    min-height: 40px;
   }
 
   .neo-navbar__toggle {
