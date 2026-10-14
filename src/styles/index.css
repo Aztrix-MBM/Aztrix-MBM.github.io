@@ -410,6 +410,10 @@ img, svg {
   position: relative;
 }
 
+.neo-navbar__mobile-brand {
+  display: none;
+}
+
 .neo-navbar__links {
   display: flex;
   align-items: center;
@@ -1860,9 +1864,28 @@ img, svg {
     padding-top: 1.5rem !important;
   }
 
+  .neo-navbar__mobile-brand {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: none;
+    font-family: var(--font-heading);
+    font-weight: 900;
+    font-size: 1.15rem;
+    letter-spacing: -0.02em;
+    color: var(--color-black);
+    cursor: pointer;
+    padding: 4px 6px;
+  }
+
   .hero-headline {
     font-size: clamp(2.4rem, 9vw, 3.6rem);
     line-height: 0.95;
+  }
+
+  .hero-headline__highlight {
+    bottom: 2px;
+    height: 28%;
   }
 
   .hero-pitch {

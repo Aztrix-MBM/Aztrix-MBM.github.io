@@ -57,6 +57,16 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onSelectTab }) => {
     <>
       <header className="neo-navbar">
         <nav className="neo-navbar__inner" aria-label="Main Navigation">
+          {/* Mobile Brand Label (visible only on mobile) */}
+          <button
+            type="button"
+            onClick={() => handleItemClick('home')}
+            className="neo-navbar__mobile-brand"
+            aria-label="Go to Home"
+          >
+            MUTHU.B
+          </button>
+
           {/* Desktop Nav Links */}
           <ul className="neo-navbar__links" role="list">
             {navItems.map((item) => {
