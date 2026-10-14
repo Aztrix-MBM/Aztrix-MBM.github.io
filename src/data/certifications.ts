@@ -11,6 +11,15 @@ export interface Certification {
 
 export const certificationsData: Certification[] = [
   {
+    id: "hp-data-science",
+    title: "Data Science & Analytics",
+    issuer: "HP",
+    year: "2024",
+    skillsCovered: ["Data Analytics", "Statistical Analysis", "Data Visualization", "Predictive Modeling"],
+    verifyUrl: "https://drive.google.com/file/d/1cSXnO8gSPtN4QkAqZqdHq4aO2djd97_k/view?usp=sharing",
+    badgeColor: "var(--color-yellow)"
+  },
+  {
     id: "dl-specialization",
     title: "Deep Learning & Neural Networks Specialization",
     issuer: "DeepLearning.AI / Coursera",

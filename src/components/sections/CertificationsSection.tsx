@@ -41,9 +41,9 @@ export const CertificationsSection: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cert-card__verify-link"
-                  aria-label={`Verify ${cert.title} credential`}
+                  aria-label={`View ${cert.title} certificate`}
                 >
-                  <span>VERIFY CREDENTIAL</span>
+                  <span>VIEW CERTIFICATE</span>
                   <IconArrowUpRight size={14} />
                 </a>
               </div>
