@@ -36,5 +36,14 @@ export const certificationsData: Certification[] = [
     skillsCovered: ["Cyber Defense Simulation", "Incident Response", "Vulnerability Assessment", "Security Analysis"],
     verifyUrl: "https://drive.google.com/file/d/1GQWZo36GmZbT5yVdvk8DmwKvkdClcpBT/view?usp=sharing",
     badgeColor: "var(--color-purple)"
+  },
+  {
+    id: "forage-controllers-simulation",
+    title: "Controllers Job Simulation",
+    issuer: "Forage",
+    year: "2024",
+    skillsCovered: ["Financial Controls", "Risk Governance", "Process Automation", "Auditing & Compliance"],
+    verifyUrl: "https://drive.google.com/file/d/1LjgvBKR7YT_vgFglRO4707xmbXB2-Nnb/view?usp=sharing",
+    badgeColor: "var(--color-green)"
   }
 ];
