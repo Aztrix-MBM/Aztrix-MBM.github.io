@@ -292,7 +292,7 @@ export const ResumeSection: React.FC = () => {
             {/* Top Sheet Header Strip */}
             <div className="resume-sheet__top-banner">
               <span className="resume-sheet__meta-mono">
-                AUTHENTICATED INDUSTRY DOSSIER // MUTHU BALAMURUGAN
+                AUTHENTICATED INDUSTRY DOSSIER // MUTHUBALAMURUGAN
               </span>
               <span className="neo-badge neo-badge--purple" style={{ fontSize: '0.75rem', fontWeight: 900 }}>
                 SHEET 02 / 02
@@ -478,7 +478,7 @@ export const ResumeSection: React.FC = () => {
 
             {/* Sheet 2 Footer */}
             <footer className="resume-sheet__footer">
-              <span>MUTHU BALAMURUGAN • RAMCO INSTITUTE OF TECHNOLOGY • END OF DOSSIER</span>
+              <span>MUTHUBALAMURUGAN • RAMCO INSTITUTE OF TECHNOLOGY • END OF DOSSIER</span>
               <span className="resume-sheet__page-tag">PAGE 02 OF 02</span>
             </footer>
           </article>

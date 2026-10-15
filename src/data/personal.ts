@@ -34,9 +34,9 @@ export interface PersonalInfo {
 }
 
 export const personalData: PersonalInfo = {
-  name: "Muthu Balamurugan",
-  firstName: "MUTHU",
-  lastName: "BALAMURUGAN",
+  name: "Muthubalamurugan",
+  firstName: "MUTHUBALAMURUGAN",
+  lastName: "",
   role: "AI & Data Science Student",
   badge: "AI & DATA SCIENCE STUDENT",
   pitch: "I build web applications, AI solutions and turn ideas into real products.",

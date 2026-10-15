@@ -23,7 +23,7 @@ def create_2page_resume():
         "q",
         # Top banner line
         "0.2 0.2 0.2 rg 50 795 495 2 re f",
-        "BT /F2 22 Tf 0 0 0 rg 50 770 Td (MUTHU BALAMURUGAN) Tj ET",
+        "BT /F2 22 Tf 0 0 0 rg 50 770 Td (MUTHUBALAMURUGAN) Tj ET",
         "BT /F1 11 Tf 0.3 0.3 0.3 rg 50 754 Td (ARTIFICIAL INTELLIGENCE & DATA SCIENCE ENGINEER) Tj ET",
         "BT /F3 9 Tf 0.4 0.4 0.4 rg 50 738 Td (Tamil Nadu, India  |  muthubalamurugan.dev@gmail.com  |  github.com/muthubalamurugan) Tj ET",
         "0.85 0.85 0.85 rg 50 726 495 1 re f",
@@ -71,7 +71,7 @@ def create_2page_resume():
 
         # Page 1 Footer
         "0.8 0.8 0.8 rg 50 70 495 1 re f",
-        "BT /F3 8 Tf 0.5 0.5 0.5 rg 50 56 Td (RAMCO INSTITUTE OF TECHNOLOGY  |  MUTHU BALAMURUGAN RESUME  |  PAGE 01 OF 02) Tj ET",
+        "BT /F3 8 Tf 0.5 0.5 0.5 rg 50 56 Td (RAMCO INSTITUTE OF TECHNOLOGY  |  MUTHUBALAMURUGAN RESUME  |  PAGE 01 OF 02) Tj ET",
         "Q"
     ]
     p1_stream = "\n".join(p1_lines).encode("latin-1")
@@ -81,7 +81,7 @@ def create_2page_resume():
         "q",
         # Top banner line
         "0.2 0.2 0.2 rg 50 795 495 2 re f",
-        "BT /F2 14 Tf 0 0 0 rg 50 772 Td (MUTHU BALAMURUGAN  -  CREDENTIALS & EXPERIENCE DOSSIER) Tj ET",
+        "BT /F2 14 Tf 0 0 0 rg 50 772 Td (MUTHUBALAMURUGAN  -  CREDENTIALS & EXPERIENCE DOSSIER) Tj ET",
         "BT /F3 8.5 Tf 0.4 0.4 0.4 rg 50 756 Td (Hardware Systems, Certified Industry Competencies, Job Simulations & Collegiate Honors) Tj ET",
         "0.85 0.85 0.85 rg 50 744 495 1 re f",
 
@@ -138,7 +138,7 @@ def create_2page_resume():
 
         # Page 2 Footer
         "0.8 0.8 0.8 rg 50 70 495 1 re f",
-        "BT /F3 8 Tf 0.5 0.5 0.5 rg 50 56 Td (RAMCO INSTITUTE OF TECHNOLOGY  |  MUTHU BALAMURUGAN RESUME  |  PAGE 02 OF 02) Tj ET",
+        "BT /F3 8 Tf 0.5 0.5 0.5 rg 50 56 Td (RAMCO INSTITUTE OF TECHNOLOGY  |  MUTHUBALAMURUGAN RESUME  |  PAGE 02 OF 02) Tj ET",
         "Q"
     ]
     p2_stream = "\n".join(p2_lines).encode("latin-1")

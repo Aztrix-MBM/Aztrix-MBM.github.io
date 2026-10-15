@@ -135,7 +135,7 @@ export const ContactSection: React.FC = () => {
                   rel="noopener noreferrer"
                   className="neo-btn"
                   style={{ flexGrow: 1 }}
-                  aria-label="Visit Muthu Balamurugan GitHub"
+                  aria-label="Visit Muthubalamurugan GitHub"
                 >
                   <IconGithub size={18} />
                   <span>GITHUB</span>
@@ -147,7 +147,7 @@ export const ContactSection: React.FC = () => {
                   rel="noopener noreferrer"
                   className="neo-btn"
                   style={{ flexGrow: 1 }}
-                  aria-label="Visit Muthu Balamurugan LinkedIn"
+                  aria-label="Visit Muthubalamurugan LinkedIn"
                 >
                   <IconLinkedin size={18} />
                   <span>LINKEDIN</span>
@@ -159,7 +159,7 @@ export const ContactSection: React.FC = () => {
                   rel="noopener noreferrer"
                   className="neo-btn"
                   style={{ flexGrow: 1 }}
-                  aria-label="Visit Muthu Balamurugan X"
+                  aria-label="Visit Muthubalamurugan X"
                 >
                   <IconTwitter size={18} />
                   <span>X / TWITTER</span>

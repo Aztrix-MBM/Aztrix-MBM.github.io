@@ -68,9 +68,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
             </div>
 
             <h1 className="hero-headline">
-              <span className="hero-headline__first">{personalData.firstName}</span>
               <span className="hero-headline__last">
-                {personalData.lastName}
+                {personalData.firstName}
                 <span className="hero-headline__highlight" aria-hidden="true" />
               </span>
             </h1>
@@ -149,7 +148,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
               <div className="hero-photo-frame">
                 <img
                   src="/images/profile.jpg"
-                  alt="Portrait of Muthu Balamurugan"
+                  alt="Portrait of Muthubalamurugan"
                   width="360"
                   height="450"
                   className="hero-photo-img"
