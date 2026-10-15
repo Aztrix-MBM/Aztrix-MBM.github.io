@@ -8,11 +8,9 @@ export const CertificationsSection: React.FC = () => {
     <section id="certifications" className="section" style={{ backgroundColor: 'var(--color-canvas-alt)' }}>
       <div className="container">
         <SectionHeading
-          tag="ACADEMIC &amp; INDUSTRY HONORS"
           title="CERTIFICATIONS"
           star={true}
           note="Verified learning credentials"
-          tagDotColor="var(--color-green)"
         />
 
         <div className="certs-grid">

@@ -1,7 +1,7 @@
 import React from 'react';
 
 interface SectionHeadingProps {
-  tag: string;
+  tag?: string;
   title: string;
   star?: boolean;
   note?: string;
@@ -17,14 +17,16 @@ export const SectionHeading: React.FC<SectionHeadingProps> = ({
 }) => {
   return (
     <div className="section-header">
-      <div className="section-header__tag">
-        <span
-          className="section-header__tag-dot"
-          style={{ backgroundColor: tagDotColor }}
-          aria-hidden="true"
-        />
-        <span>{tag}</span>
-      </div>
+      {tag && (
+        <div className="section-header__tag">
+          <span
+            className="section-header__tag-dot"
+            style={{ backgroundColor: tagDotColor }}
+            aria-hidden="true"
+          />
+          <span>{tag}</span>
+        </div>
+      )}
       <div className="section-header__title-row" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
         <h2 className="section-header__title">
           <span>{title}</span>

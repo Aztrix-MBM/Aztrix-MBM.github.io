@@ -7,11 +7,9 @@ export const SkillsSection: React.FC = () => {
     <section id="skills" className="section">
       <div className="container">
         <SectionHeading
-          tag="TECHNICAL TOOLSET"
           title="SKILLS &amp; CAPABILITIES"
           star={true}
           note="Grouped by domain expertise"
-          tagDotColor="var(--color-purple)"
         />
 
         <div className="skills-grid">

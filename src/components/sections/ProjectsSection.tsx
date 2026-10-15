@@ -20,11 +20,9 @@ export const ProjectsSection: React.FC = () => {
         {/* Section Heading */}
         <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1.5rem', marginBottom: '2rem' }}>
           <SectionHeading
-            tag="PORTFOLIO HIGHLIGHTS"
             title="FEATURED PROJECTS"
             star={true}
             note="Some of the things I've built..."
-            tagDotColor="var(--color-pink)"
           />
 
           {/* Filter Pills */}

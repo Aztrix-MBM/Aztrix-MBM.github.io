@@ -8,11 +8,9 @@ export const AboutSection: React.FC = () => {
     <section id="about" className="section" style={{ backgroundColor: 'var(--color-canvas-alt)' }}>
       <div className="container">
         <SectionHeading
-          tag="BACKGROUND &amp; PHILOSOPHY"
           title="ABOUT ME"
           star={true}
           note="Engineer, builder & problem solver"
-          tagDotColor="var(--color-yellow)"
         />
 
         <div className="about-grid">

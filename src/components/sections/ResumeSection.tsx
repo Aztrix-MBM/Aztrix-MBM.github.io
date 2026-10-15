@@ -8,11 +8,9 @@ export const ResumeSection: React.FC = () => {
     <section id="resume" className="section">
       <div className="container">
         <SectionHeading
-          tag="CURRICULUM VITAE"
           title="RESUME SUMMARY"
           star={true}
           note="Live summary &amp; direct download"
-          tagDotColor="var(--color-pink)"
         />
 
         <div className="resume-wrapper">

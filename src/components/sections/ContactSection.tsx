@@ -86,11 +86,9 @@ export const ContactSection: React.FC = () => {
     <section id="contact" className="section" style={{ backgroundColor: 'var(--color-canvas-alt)' }}>
       <div className="container">
         <SectionHeading
-          tag="GET IN TOUCH"
           title="LET'S CONNECT"
           star={true}
           note="Open for opportunities &amp; discussions"
-          tagDotColor="var(--color-pink)"
         />
 
         <div className="contact-grid">
