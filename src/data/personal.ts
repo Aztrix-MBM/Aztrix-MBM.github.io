@@ -48,9 +48,9 @@ export const personalData: PersonalInfo = {
   education: {
     degree: "Bachelor of Technology",
     field: "Artificial Intelligence & Data Science",
-    institution: "Anna University Affiliated Engineering College",
+    institution: "Ramco Institute of Technology",
     cgpa: "7.8 / 10.0",
-    period: "2023 — 2027",
+    period: "2025 — 2029",
     highlights: [
       "Consistent academic record with 7.8 CGPA",
       "Core focus on Machine Learning, Neural Networks, Database Systems & Distributed Architecture",
