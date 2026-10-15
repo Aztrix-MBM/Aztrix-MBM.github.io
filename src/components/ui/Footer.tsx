@@ -22,10 +22,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab }) => {
       <div className="container">
         <div className="neo-footer__top">
           <div className="neo-footer__brand">
-            <div className="neo-footer__logo">M.</div>
-            <p style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: '1.2rem', color: '#fff' }}>
-              {personalData.name}
-            </p>
+            <div className="neo-footer__logo">AZTRIX</div>
             <p className="neo-footer__copy">
               {personalData.role} • Turning ideas into engineered reality.
             </p>
