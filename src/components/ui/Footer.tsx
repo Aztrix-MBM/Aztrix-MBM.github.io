@@ -89,11 +89,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab }) => {
             <span>© {new Date().getFullYear()} {personalData.name}. All rights reserved.</span>
           </div>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-            <span style={{ color: 'var(--color-green)' }}>
-              ● Systems Operational
-            </span>
-
+          <div>
             <button
               type="button"
               onClick={scrollToTop}
