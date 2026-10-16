@@ -8,70 +8,96 @@ def create_2page_resume():
         objects.append(content)
         return len(objects)
 
-    # 1: Catalog
-    # 2: Pages
-    # 3: Page 1
-    # 4: Page 2
-    # 5: Font Helvetica
-    # 6: Font Helvetica-Bold
-    # 7: Font Courier
-    # 8: Stream 1
-    # 9: Stream 2
-
     # Page 1 stream content
     p1_lines = [
         "q",
-        # Top banner line
-        "0.2 0.2 0.2 rg 50 795 495 2 re f",
-        "BT /F2 22 Tf 0 0 0 rg 50 770 Td (MUTHUBALAMURUGAN) Tj ET",
-        "BT /F1 11 Tf 0.3 0.3 0.3 rg 50 754 Td (ARTIFICIAL INTELLIGENCE & DATA SCIENCE ENGINEER) Tj ET",
-        "BT /F3 7.5 Tf 0.35 0.35 0.35 rg 50 738 Td (Tamil Nadu, India | Aztrixdev@gmail.com | github: AZTRIX (Aztrix-MBM) | linkedin.com/in/muthubala-murugan-814049383) Tj ET",
-        "0.85 0.85 0.85 rg 50 726 495 1 re f",
+        # Header (Centered)
+        "BT /F2 22 Tf 0.12 0.25 0.68 rg 180 795 Td (Muthubalamurugan) Tj ET",
+        "BT /F1 11 Tf 0.2 0.25 0.35 rg 145 778 Td (B.Tech Artificial Intelligence & Data Science Student) Tj ET",
+        "0.8 0.83 0.88 rg 45 765 505 1 re f",
 
-        # Header 1: Executive Profile
-        "BT /F2 12 Tf 0 0 0 rg 50 706 Td (1. PROFESSIONAL SUMMARY) Tj ET",
-        "0.9 0.8 0.2 rg 50 700 160 2 re f",
-        "BT /F1 9.5 Tf 0.15 0.15 0.15 rg 50 684 Td (Innovative Artificial Intelligence & Data Science student at Ramco Institute of Technology.) Tj ET",
-        "BT /F1 9.5 Tf 0.15 0.15 0.15 rg 50 670 Td (Focused on engineering real-world software across generative AI pipelines, computer vision, and) Tj ET",
-        "BT /F1 9.5 Tf 0.15 0.15 0.15 rg 50 656 Td (industrial IoT edge telemetry with high performance and resilient system architecture.) Tj ET",
+        # ABOUT ME Section
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 45 748 Td (ABOUT ME) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 734 Td (Motivated and detail oriented B.Tech Artificial Intelligence and Data Science student with a strong passion for) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 722 Td (software development, artificial intelligence, system architecture, and modern technologies. Continuously learning) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 710 Td (through certifications, technical projects, and hands-on experience. Dedicated to solving complex problems, optimizing) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 698 Td (systems, and building innovative software solutions while expanding technical expertise and professional skills.) Tj ET",
+        "0.8 0.83 0.88 rg 45 686 505 1 re f",
 
-        # Header 2: Education
-        "BT /F2 12 Tf 0 0 0 rg 50 630 Td (2. EDUCATION & ACADEMIC CREDENTIALS) Tj ET",
-        "0.9 0.8 0.2 rg 50 624 235 2 re f",
-        "BT /F2 10.5 Tf 0 0 0 rg 50 606 Td (Bachelor of Technology - Artificial Intelligence & Data Science) Tj ET",
-        "BT /F1 10 Tf 0.2 0.2 0.2 rg 50 592 Td (Ramco Institute of Technology | Timeline: 2025 - 2029) Tj ET",
-        "BT /F2 9.5 Tf 0 0 0 rg 50 578 Td (Cumulative CGPA: 7.8 / 10.0) Tj ET",
-        "BT /F1 9 Tf 0.3 0.3 0.3 rg 50 564 Td (Key Coursework: Machine Learning, Neural Networks, Computer Vision, Database Systems, DSA) Tj ET",
+        # Vertical Divider Line
+        "0.8 0.83 0.88 rg 235 50 1 630 re f",
 
-        # Header 3: Technical Skills Matrix
-        "BT /F2 12 Tf 0 0 0 rg 50 538 Td (3. TECHNICAL SKILLS MATRIX) Tj ET",
-        "0.9 0.8 0.2 rg 50 532 170 2 re f",
-        "BT /F2 9.5 Tf 0 0 0 rg 50 514 Td (Programming Languages:) Tj /F1 9.5 Tf ( Python, TypeScript, JavaScript, C++, Java, SQL) Tj ET",
-        "BT /F2 9.5 Tf 0 0 0 rg 50 498 Td (AI / ML & Computer Vision:) Tj /F1 9.5 Tf ( PyTorch, OpenCV, Scikit-Learn, Google Gemini API, MediaPipe) Tj ET",
-        "BT /F2 9.5 Tf 0 0 0 rg 50 482 Td (Web & Distributed Systems:) Tj /F1 9.5 Tf ( React.js, Next.js, FastAPI, Node.js, Express, Supabase, PostgreSQL) Tj ET",
-        "BT /F2 9.5 Tf 0 0 0 rg 50 466 Td (IoT, Firmware & Tools:) Tj /F1 9.5 Tf ( Arduino, ESP32, MQTT Protocol, Git/GitHub, Docker, Linux) Tj ET",
+        # ================= LEFT COLUMN =================
+        # Contact
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 45 665 Td (CONTACT) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 45 650 Td (- Srivilliputhur, Tamil Nadu, India) Tj ET",
+        "BT /F1 8.2 Tf 0.12 0.25 0.68 rg 45 637 Td (- https://aztrix-mbm.github.io/) Tj ET",
+        "BT /F1 8.2 Tf 0.12 0.25 0.68 rg 45 624 Td (- Aztrixdev@gmail.com) Tj ET",
+        "BT /F1 8.2 Tf 0.12 0.25 0.68 rg 45 611 Td (- github.com/Aztrix-MBM) Tj ET",
+        "BT /F1 8.2 Tf 0.12 0.25 0.68 rg 45 598 Td (- linkedin.com/in/muthubalamurugan) Tj ET",
 
-        # Header 4: Featured Engineering Projects (Part 1)
-        "BT /F2 12 Tf 0 0 0 rg 50 440 Td (4. HIGH-IMPACT ENGINEERING PROJECTS (PART 1)) Tj ET",
-        "0.9 0.8 0.2 rg 50 434 260 2 re f",
+        # Education
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 45 568 Td (EDUCATION) Tj ET",
+        "BT /F2 8.5 Tf 0.12 0.23 0.54 rg 45 552 Td (RAMCO INSTITUTE OF TECHNOLOGY (RIT)) Tj ET",
+        "BT /F2 7.8 Tf 0.1 0.1 0.1 rg 45 540 Td (B.TECH - AI AND DATA SCIENCE) Tj ET",
+        "BT /F2 7.8 Tf 0.3 0.3 0.3 rg 45 528 Td (2025 - 2029) Tj ET",
+        "BT /F1 8 Tf 0.2 0.25 0.35 rg 45 515 Td (- Currently pursuing 2nd Year (7.8 CGPA).) Tj ET",
+        "BT /F1 8 Tf 0.2 0.25 0.35 rg 45 503 Td (- Specializing in Artificial Intelligence,) Tj ET",
+        "BT /F1 8 Tf 0.2 0.25 0.35 rg 45 491 Td (  Data Science, ML & Software Dev.) Tj ET",
 
-        # Project 1: EchoVerse AI
-        "BT /F2 10.5 Tf 0 0 0 rg 50 416 Td (EchoVerse AI - Temporal Multiverse & Scenario Engine (2025)) Tj ET",
-        "BT /F3 8.5 Tf 0.3 0.3 0.3 rg 50 402 Td (Tech Stack: React, FastAPI, Python, Google Gemini 2.0 API, Server-Sent Events) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 388 Td (- Architected generative timeline engine enabling branching narrative and alternative reality simulations.) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 374 Td (- Engineered low-latency streaming pipeline delivering sub-200ms token completion speeds.) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 360 Td (- Designed graph-based decision tree visualization for instant rollback and scenario navigation.) Tj ET",
+        "BT /F2 8.5 Tf 0.12 0.23 0.54 rg 45 464 Td (KALAIMAGAL HIGHER SEC. SCHOOL) Tj ET",
+        "BT /F2 7.8 Tf 0.1 0.1 0.1 rg 45 452 Td (HIGHER SECONDARY EDUCATION) Tj ET",
+        "BT /F2 7.8 Tf 0.3 0.3 0.3 rg 45 440 Td (2011 - 2025) Tj ET",
+        "BT /F1 8 Tf 0.2 0.25 0.35 rg 45 427 Td (- Completed Primary, Secondary & Higher Sec.) Tj ET",
+        "BT /F1 8 Tf 0.2 0.25 0.35 rg 45 415 Td (- Graduated in 2025.) Tj ET",
 
-        # Project 2: AI Student OS
-        "BT /F2 10.5 Tf 0 0 0 rg 50 334 Td (AI Student OS - Integrated Academic Intelligence Workspace (2025)) Tj ET",
-        "BT /F3 8.5 Tf 0.3 0.3 0.3 rg 50 320 Td (Tech Stack: Next.js 14, TypeScript, Supabase, PostgreSQL, TailwindCSS) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 306 Td (- Engineered comprehensive productivity suite with automated flashcards generation and task boards.) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 292 Td (- Built real-time query velocity tracker and relational grade schema using PostgreSQL and Row Level Security.) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 278 Td (- Designed responsive Neo-Brutalist dashboard delivering fluid mobile and desktop accessibility.) Tj ET",
+        # Languages
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 45 382 Td (LANGUAGES) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 367 Td (- Tamil) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 353 Td (- English) Tj ET",
 
-        # Page 1 Footer
-        "0.8 0.8 0.8 rg 50 70 495 1 re f",
-        "BT /F3 8 Tf 0.5 0.5 0.5 rg 50 56 Td (RAMCO INSTITUTE OF TECHNOLOGY  |  MUTHUBALAMURUGAN RESUME  |  PAGE 01 OF 02) Tj ET",
+        # ================= RIGHT COLUMN =================
+        # Projects
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 665 Td (PROJECTS) Tj ET",
+        
+        "BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 649 Td (EchoVerse AI (In Development)) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 637 Td (- Developed a generative AI platform featuring dynamic timeline simulation) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 626 Td (  across branching realities with real-time streaming intelligence.) Tj ET",
+        "BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 615 Td (- Tech: Python, FastAPI, React, Google Gemini API) Tj ET",
+
+        "BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 595 Td (AI Student OS (In Development)) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 583 Td (- Built student productivity ecosystem with course management, automated) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 572 Td (  syllabus-to-flashcard generation, and adaptive study scheduling.) Tj ET",
+        "BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 561 Td (- Tech: Next.js, TypeScript, PostgreSQL, Supabase) Tj ET",
+
+        "BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 541 Td (Motor Health Monitor (In Development)) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 529 Td (- Designing edge IoT condition monitoring with 3-axis vibration FFT spectrum,) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 518 Td (  contactless thermal sensing, and predictive anomaly alerting.) Tj ET",
+        "BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 507 Td (- Tech: Python, Arduino, Embedded C++, MQTT) Tj ET",
+
+        # Technical Experience
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 481 Td (TECHNICAL EXPERIENCE) Tj ET",
+        "BT /F2 8.5 Tf 0.1 0.1 0.1 rg 250 467 Td (Self Learning & Personal Projects) Tj /F2 8 Tf 0.3 0.3 0.3 rg 150 0 Td (2025 - Present) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 454 Td (- Developed multiple software & AI projects using Python, React, full-stack.) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 442 Td (- Completed 29+ professional certifications across AI, Data Science & Cloud.) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 430 Td (- Enhancing expertise in ML, databases, system architecture & modern SWE.) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 418 Td (- Exploring full-stack development, agentic AI pipelines & backend systems.) Tj ET",
+
+        # Skills
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 392 Td (SKILLS) Tj ET",
+        # Col 1
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 378 Td (- AI Fundamentals) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 365 Td (- Data Science Fundamentals) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 352 Td (- Python Programming (Advanced)) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 339 Td (- Java Programming (Advanced)) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 326 Td (- MySQL Architecture (Advanced)) Tj ET",
+        # Col 2
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 378 Td (- Advanced Computing) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 365 Td (- System Architecture) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 352 Td (- Code Analysis) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 339 Td (- Problem Solving) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 326 Td (- System Optimization) Tj ET",
+
         "Q"
     ]
     p1_stream = "\n".join(p1_lines).encode("latin-1")
@@ -79,81 +105,74 @@ def create_2page_resume():
     # Page 2 stream content
     p2_lines = [
         "q",
-        # Top banner line
-        "0.2 0.2 0.2 rg 50 795 495 2 re f",
-        "BT /F2 14 Tf 0 0 0 rg 50 772 Td (MUTHUBALAMURUGAN  -  CREDENTIALS & EXPERIENCE DOSSIER) Tj ET",
-        "BT /F3 8.5 Tf 0.4 0.4 0.4 rg 50 756 Td (Hardware Systems, Certified Industry Competencies, Job Simulations & Collegiate Honors) Tj ET",
-        "0.85 0.85 0.85 rg 50 744 495 1 re f",
+        # Header (Centered)
+        "BT /F2 22 Tf 0.12 0.25 0.68 rg 165 795 Td (MUTHUBALAMURUGAN) Tj ET",
+        "BT /F1 11 Tf 0.2 0.25 0.35 rg 145 778 Td (B.Tech Artificial Intelligence & Data Science Student) Tj ET",
+        "BT /F1 8.5 Tf 0.3 0.35 0.45 rg 95 763 Td (Aztrixdev@gmail.com  |  https://aztrix-mbm.github.io/  |  Srivilliputhur, Tamil Nadu, India) Tj ET",
+        "0.8 0.83 0.88 rg 45 750 505 1 re f",
 
-        # Header 5: Featured Engineering Projects (Part 2)
-        "BT /F2 12 Tf 0 0 0 rg 50 722 Td (5. HIGH-IMPACT ENGINEERING PROJECTS (PART 2 - HARDWARE & VISION)) Tj ET",
-        "0.9 0.8 0.2 rg 50 716 380 2 re f",
+        # Vertical Divider Line
+        "0.8 0.83 0.88 rg 235 50 1 690 re f",
 
-        # Project 3: Motor Health Monitor
-        "BT /F2 10.5 Tf 0 0 0 rg 50 698 Td (Industrial Motor Health Monitor - Non-Invasive Edge Telemetry (2024)) Tj ET",
-        "BT /F3 8.5 Tf 0.3 0.3 0.3 rg 50 684 Td (Tech Stack: Arduino, Embedded C++, Python, MQTT Protocol, Accelerometer, Thermistor) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 670 Td (- Designed IoT condition-monitoring rig sampling 3-axis vibration FFT spectrum and real-time temperatures.) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 656 Td (- Automated MQTT alert triggers for bearing anomaly detection, mitigating equipment downtime.) Tj ET",
+        # ================= LEFT COLUMN =================
+        # Profile
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 45 730 Td (PROFILE) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 45 715 Td (B.Tech Artificial Intelligence and Data Science) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 45 703 Td (student passionate about AI, software development,) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 45 691 Td (backend engineering, databases, and system) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 45 679 Td (architecture. Strong foundation in Python, Java,) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 45 667 Td (MySQL, React, and modern development practices) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 45 655 Td (with hands-on experience through personal projects) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 45 643 Td (and 29+ professional certifications.) Tj ET",
 
-        # Project 4: Eye Moment Assistive Controller
-        "BT /F2 10.5 Tf 0 0 0 rg 50 630 Td (Eye Moment - Hands-Free Assistive Gaze Cursor Controller (2024)) Tj ET",
-        "BT /F3 8.5 Tf 0.3 0.3 0.3 rg 50 616 Td (Tech Stack: Python, OpenCV, MediaPipe, PyAutoGUI, NumPy) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 602 Td (- Engineered accessibility interface tracking 468 3D facial mesh points for responsive gaze cursor steering.) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 588 Td (- Achieved 60 FPS real-time responsiveness with ergonomic blink-detection gesture controls.) Tj ET",
+        # Interests
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 45 605 Td (INTERESTS) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 590 Td (- Artificial Intelligence) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 576 Td (- Software Development) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 562 Td (- Machine Learning) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 548 Td (- Data Science) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 534 Td (- System Architecture) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 520 Td (- Database Systems) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 506 Td (- Open Source) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 45 492 Td (- Modern Computing) Tj ET",
 
-        # Header 6: Verified Industry Certifications
-        "BT /F2 12 Tf 0 0 0 rg 50 560 Td (6. VERIFIED INDUSTRY CERTIFICATIONS) Tj ET",
-        "0.9 0.8 0.2 rg 50 554 230 2 re f",
+        # ================= RIGHT COLUMN =================
+        # Certifications
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 730 Td (CERTIFICATIONS) Tj ET",
+        "BT /F2 8.5 Tf 0.2 0.25 0.35 rg 250 715 Td (Professional Certifications) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 701 Td (- HP LIFE - Data Science & Analytics Certified) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 688 Td (- HP LIFE - Introduction to Cybersecurity Awareness) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 675 Td (- Infosys Springboard - Explore Machine Learning using Python) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 662 Td (- Forage - Cyber Job Simulation Experience) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 649 Td (- Forage - Controllers Job Simulation) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 636 Td (- Microsoft Applied Skills (GitHub Copilot, AI Chat, AI Research)) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 623 Td (- Google Developer Community Participation) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 610 Td (- Python, Java & MySQL Technical Accreditations) Tj ET",
+        "BT /F2 8.5 Tf 0.12 0.23 0.54 rg 250 592 Td (29+ Industry Certifications Completed) Tj ET",
 
-        "BT /F2 9.5 Tf 0 0 0 rg 50 536 Td (1. Data Science & Analytics) Tj /F1 9 Tf ( - HP (2024)) Tj ET",
-        "BT /F3 8 Tf 0.3 0.3 0.3 rg 65 524 Td (Skills: Data Analytics, Statistical Analysis, Data Visualization, Predictive Modeling) Tj ET",
+        # Professional Skills
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 560 Td (PROFESSIONAL SKILLS) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 250 546 Td (- English Communication) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 250 533 Td (- Typewriting) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 250 520 Td (- Critical Thinking) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 250 507 Td (- Analytical Thinking) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 250 494 Td (- Team Collaboration) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 250 481 Td (- Time Management) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 250 468 Td (- Continuous Learning) Tj ET",
 
-        "BT /F2 9.5 Tf 0 0 0 rg 50 508 Td (2. Introduction to Cybersecurity Awareness) Tj /F1 9 Tf ( - HP (2024)) Tj ET",
-        "BT /F3 8 Tf 0.3 0.3 0.3 rg 65 496 Td (Skills: Cybersecurity Fundamentals, Threat Awareness, Data Protection, Network Safety) Tj ET",
+        # Achievements
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 435 Td (ACHIEVEMENTS) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 250 421 Td (- 29+ Professional Certifications Completed) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 250 408 Td (- Academic Performance: 7.8 CGPA at Ramco Institute of Tech.) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 250 395 Td (- Founder of Aztrix & Co - Software & AI Development Initiative) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 250 382 Td (- Active Technical Event & Hackathon Participant) Tj ET",
+        "BT /F1 8.5 Tf 0.2 0.25 0.35 rg 250 369 Td (- Google Developer Community Participant) Tj ET",
 
-        "BT /F2 9.5 Tf 0 0 0 rg 50 480 Td (3. Cyber Job Simulation) Tj /F1 9 Tf ( - Forage (2024)) Tj ET",
-        "BT /F3 8 Tf 0.3 0.3 0.3 rg 65 468 Td (Skills: Incident Response, Vulnerability Assessment, Security Log Analysis, Defense Simulation) Tj ET",
-
-        "BT /F2 9.5 Tf 0 0 0 rg 50 452 Td (4. Controllers Job Simulation) Tj /F1 9 Tf ( - Forage (2024)) Tj ET",
-        "BT /F3 8 Tf 0.3 0.3 0.3 rg 65 440 Td (Skills: Financial Governance, Risk Assessment, Process Automation, Internal Control Auditing) Tj ET",
-
-        "BT /F2 9.5 Tf 0 0 0 rg 50 424 Td (5. Explore Machine Learning using Python) Tj /F1 9 Tf ( - Infosys (2024)) Tj ET",
-        "BT /F3 8 Tf 0.3 0.3 0.3 rg 65 412 Td (Skills: Machine Learning Pipelines, Scikit-Learn, Feature Engineering, Model Evaluation) Tj ET",
-
-        # Header 7: Virtual Job Simulations
-        "BT /F2 12 Tf 0 0 0 rg 50 384 Td (7. PRACTICAL INDUSTRY SIMULATIONS & INTERNSHIPS) Tj ET",
-        "0.9 0.8 0.2 rg 50 378 300 2 re f",
-        "BT /F2 9.5 Tf 0 0 0 rg 50 360 Td (Forage Cybersecurity Virtual Experience (2024):) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 348 Td (Completed enterprise threat defense scenarios, incident response workflows, and log triage protocols.) Tj ET",
-        "BT /F2 9.5 Tf 0 0 0 rg 50 330 Td (Forage Financial Controllership Simulation (2024):) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 318 Td (Executed risk evaluations, automated financial reconciliation checks, and internal audit compliance.) Tj ET",
-
-        # Header 8: Hackathons & Honors
-        "BT /F2 12 Tf 0 0 0 rg 50 290 Td (8. COMPETITIVE HACKATHONS & ACHIEVEMENTS) Tj ET",
-        "0.9 0.8 0.2 rg 50 284 250 2 re f",
-        "BT /F2 9.5 Tf 0 0 0 rg 50 266 Td (2x Collegiate Hackathon Finalist (2024 - 2025):) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 254 Td (Engineered rapid-turnaround generative AI and hardware prototypes under strict 24-hr sprint limits.) Tj ET",
-        "BT /F2 9.5 Tf 0 0 0 rg 50 236 Td (Technical Symposium Exhibitor (2024):) Tj ET",
-        "BT /F1 9 Tf 0.2 0.2 0.2 rg 50 224 Td (Presented live demonstrations of hands-free computer vision assistive tools and industrial edge sensing.) Tj ET",
-
-        # Page 2 Footer
-        "0.8 0.8 0.8 rg 50 70 495 1 re f",
-        "BT /F3 8 Tf 0.5 0.5 0.5 rg 50 56 Td (RAMCO INSTITUTE OF TECHNOLOGY  |  MUTHUBALAMURUGAN RESUME  |  PAGE 02 OF 02) Tj ET",
         "Q"
     ]
     p2_stream = "\n".join(p2_lines).encode("latin-1")
 
     # Build objects
-    # 1: Catalog
-    # 2: Pages
-    # 3: Page 1
-    # 4: Page 2
-    # 5: F1 (Helvetica)
-    # 6: F2 (Helvetica-Bold)
-    # 7: F3 (Courier)
-    # 8: Stream 1
-    # 9: Stream 2
-
     output = bytearray()
     offsets = []
 

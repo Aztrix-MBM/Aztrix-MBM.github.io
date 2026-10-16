@@ -15,6 +15,12 @@ export interface PersonalInfo {
     period: string;
     highlights: string[];
   };
+  secondaryEducation: {
+    school: string;
+    degree: string;
+    period: string;
+    completionYear: string;
+  };
   stats: {
     label: string;
     value: string;
@@ -62,6 +68,12 @@ export const personalData: PersonalInfo = {
       "Core focus on Machine Learning, Neural Networks, Database Systems & Distributed Architecture",
       "Active participant in technical hackathons and collegiate coding symposiums"
     ]
+  },
+  secondaryEducation: {
+    school: "Kalaimagal Higher Secondary School",
+    degree: "Higher Secondary Education",
+    period: "2011 — 2025",
+    completionYear: "2025"
   },
   stats: [
     {
@@ -121,6 +133,6 @@ export const personalData: PersonalInfo = {
   ],
   disciplines: ["AI", "WEB", "SYSTEMS", "PROBLEM SOLVING"],
   email: "Aztrixdev@gmail.com",
-  location: "Tamil Nadu, India",
+  location: "Srivilliputhur, Tamil Nadu, India",
   status: "Available for internships and impactful collaborations"
 };
