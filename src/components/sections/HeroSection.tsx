@@ -122,18 +122,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
           {/* Right Column: Visual Center, Profile & Brutalist Accents */}
           <div className="hero-visual-wrapper">
             <div className="hero-photo-container">
-              {/* Handwritten Note: Build Learn Create Repeat */}
-              <div className="hero-handwritten-note">
-                <span>Build</span>
-                <span>Learn</span>
-                <span>Create</span>
-                <span>Repeat</span>
-                <svg width="40" height="28" viewBox="0 0 50 35" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M5 5 C 25 15, 30 25, 45 28" />
-                  <polyline points="38 28 45 28 43 21" />
-                </svg>
-              </div>
-
               {/* Tilted Neo-Brutalist Banner: IDEAS INTO REALITY. */}
               <div className="hero-tilted-banner">
                 <div className="hero-tilted-banner__text">
@@ -156,23 +144,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
                   className="hero-photo-img"
                   fetchPriority="high"
                 />
-              </div>
-
-              {/* Wireframe Mesh & Disciplines */}
-              <div className="hero-wireframe-badge" aria-hidden="true">
-                <svg width="80" height="50" viewBox="0 0 100 60" fill="none" stroke="currentColor" strokeWidth="1.5">
-                  <ellipse cx="50" cy="30" rx="46" ry="26" />
-                  <ellipse cx="50" cy="30" rx="30" ry="26" strokeDasharray="3 3" />
-                  <ellipse cx="50" cy="30" rx="14" ry="26" />
-                  <line x1="4" y1="30" x2="96" y2="30" />
-                  <line x1="12" y1="18" x2="88" y2="18" strokeDasharray="2 2" />
-                  <line x1="12" y1="42" x2="88" y2="42" strokeDasharray="2 2" />
-                </svg>
-                <div className="hero-disciplines-list">
-                  {personalData.disciplines.map((item) => (
-                    <span key={item}>{item}</span>
-                  ))}
-                </div>
               </div>
             </div>
           </div>
