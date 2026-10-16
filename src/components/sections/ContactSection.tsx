@@ -142,7 +142,7 @@ export const ContactSection: React.FC = () => {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/muthubalamurugan"
+                  href="https://www.linkedin.com/in/muthubala-murugan-814049383"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="neo-btn"

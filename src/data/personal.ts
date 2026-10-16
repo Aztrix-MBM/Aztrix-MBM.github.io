@@ -96,9 +96,9 @@ export const personalData: PersonalInfo = {
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/muthubalamurugan",
+      url: "https://www.linkedin.com/in/muthubala-murugan-814049383",
       icon: "linkedin",
-      handle: "in/muthubalamurugan"
+      handle: "in/muthubala-murugan-814049383"
     },
     {
       name: "Twitter / X",

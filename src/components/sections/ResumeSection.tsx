@@ -121,12 +121,12 @@ export const ResumeSection: React.FC = () => {
                   <strong>GITHUB:</strong> github.com/muthubalamurugan
                 </a>
                 <a
-                  href="https://linkedin.com/in/muthubalamurugan"
+                  href="https://www.linkedin.com/in/muthubala-murugan-814049383"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="resume-sheet__pill resume-sheet__pill--link"
                 >
-                  <strong>LINKEDIN:</strong> linkedin.com/in/muthubalamurugan
+                  <strong>LINKEDIN:</strong> linkedin.com/in/muthubala-murugan-814049383
                 </a>
               </div>
             </header>
