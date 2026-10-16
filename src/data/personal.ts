@@ -108,13 +108,13 @@ export const personalData: PersonalInfo = {
     },
     {
       name: "Email",
-      url: "mailto:muthubalamurugan.dev@gmail.com",
+      url: "mailto:Aztrixdev@gmail.com",
       icon: "mail",
-      handle: "muthubalamurugan.dev@gmail.com"
+      handle: "Aztrixdev@gmail.com"
     }
   ],
   disciplines: ["AI", "WEB", "SYSTEMS", "PROBLEM SOLVING"],
-  email: "muthubalamurugan.dev@gmail.com",
+  email: "Aztrixdev@gmail.com",
   location: "Tamil Nadu, India",
   status: "Available for internships and impactful collaborations"
 };

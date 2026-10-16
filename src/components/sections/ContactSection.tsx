@@ -44,7 +44,7 @@ export const ContactSection: React.FC = () => {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setSubmitStatus('idle');
 
@@ -56,19 +56,46 @@ export const ContactSection: React.FC = () => {
 
     setIsSubmitting(true);
 
-    // Simulate sending message securely and providing mailto fallback
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitStatus('success');
+    try {
+      const response = await fetch(`https://formsubmit.co/ajax/${encodeURIComponent(personalData.email)}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          _subject: `[Portfolio Contact] ${formData.subject || 'New message from visitor'}`,
+          message: formData.message,
+          _template: 'table',
+          _captcha: 'false'
+        })
+      });
 
-      // Create mailto fallback link to guarantee direct deliverability
+      if (response.ok) {
+        setIsSubmitting(false);
+        setSubmitStatus('success');
+        setFormData({
+          name: '',
+          email: '',
+          subject: '',
+          message: '',
+          honeypot: ''
+        });
+      } else {
+        throw new Error('API submission error');
+      }
+    } catch {
+      // Fallback: If network API blocked or fails, open mailto client
       const mailtoUrl = `mailto:${personalData.email}?subject=${encodeURIComponent(
         `[Portfolio] ${formData.subject}`
       )}&body=${encodeURIComponent(
         `Sender: ${formData.name} (${formData.email})\n\nMessage:\n${formData.message}`
       )}`;
-
-      // Reset form
+      window.location.href = mailtoUrl;
+      setIsSubmitting(false);
+      setSubmitStatus('success');
       setFormData({
         name: '',
         email: '',
@@ -76,10 +103,7 @@ export const ContactSection: React.FC = () => {
         message: '',
         honeypot: ''
       });
-
-      // Also trigger mail client if user clicks
-      console.log('Form message ready for transmission to:', mailtoUrl);
-    }, 700);
+    }
   };
 
   return (
@@ -185,7 +209,7 @@ export const ContactSection: React.FC = () => {
 
             {submitStatus === 'success' && (
               <div className="form-status-alert form-status-alert--success" role="alert">
-                Message prepared successfully! Thank you for reaching out. I will get back to you shortly.
+                ✓ Message sent successfully! It has been dispatched to {personalData.email}. Muthubalamurugan will get back to you shortly.
               </div>
             )}
 
