@@ -92,7 +92,7 @@ export const personalData: PersonalInfo = {
       name: "GitHub",
       url: "https://github.com/Aztrix-MBM",
       icon: "github",
-      handle: "@Aztrix-MBM"
+      handle: "@Aztrix"
     },
     {
       name: "LinkedIn",

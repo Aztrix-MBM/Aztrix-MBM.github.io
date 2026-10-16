@@ -118,7 +118,7 @@ export const ResumeSection: React.FC = () => {
                   rel="noopener noreferrer"
                   className="resume-sheet__pill resume-sheet__pill--link"
                 >
-                  <strong>GITHUB:</strong> github.com/Aztrix-MBM
+                  <strong>GITHUB:</strong> AZTRIX
                 </a>
                 <a
                   href="https://www.linkedin.com/in/muthubala-murugan-814049383"
