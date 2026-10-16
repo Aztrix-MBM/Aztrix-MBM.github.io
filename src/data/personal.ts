@@ -54,7 +54,7 @@ export const personalData: PersonalInfo = {
   pitch: "I build web applications, AI solutions and turn ideas into real products.",
   story: [
     "I am an Artificial Intelligence & Data Science student with a focus on engineering high-impact software.",
-    "My work spans full-stack web applications, generative AI pipelines, computer vision, and industrial IoT monitoring.",
+    "My work spans full-stack web applications, generative AI pipelines, computer vision, and scalable system architectures.",
     "I believe in building software that doesn't just work in notebooks, but ships to real users with blazing performance, crisp user experience, and resilient system architecture."
   ],
   education: {

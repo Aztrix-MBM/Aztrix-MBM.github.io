@@ -31,7 +31,7 @@ export const AboutSection: React.FC = () => {
                 What I Focus On Building:
               </h4>
 
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '12px' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '12px' }}>
                 <div style={{ padding: '12px', backgroundColor: 'var(--color-canvas)', border: '2px solid var(--color-black)', borderRadius: 'var(--radius-sm)' }}>
                   <strong style={{ display: 'block', fontSize: '0.85rem', marginBottom: '4px' }}>
                     01. Web Applications
@@ -47,15 +47,6 @@ export const AboutSection: React.FC = () => {
                   </strong>
                   <span style={{ fontSize: '0.8rem', color: '#555' }}>
                     Multi-agent pipelines, temporal simulation, and contextual LLM applications.
-                  </span>
-                </div>
-
-                <div style={{ padding: '12px', backgroundColor: 'var(--color-canvas)', border: '2px solid var(--color-black)', borderRadius: 'var(--radius-sm)' }}>
-                  <strong style={{ display: 'block', fontSize: '0.85rem', marginBottom: '4px' }}>
-                    03. IoT &amp; Embedded Logic
-                  </strong>
-                  <span style={{ fontSize: '0.8rem', color: '#555' }}>
-                    Microcontroller firmware, real-time sensor streams, and edge telemetry.
                   </span>
                 </div>
               </div>
