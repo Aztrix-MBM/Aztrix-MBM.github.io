@@ -11,7 +11,7 @@ export default defineConfig({
         server.middlewares.use((req, res, next) => {
           if (req.url && req.url.includes('/resume/Muthubala_Resume.pdf')) {
             res.setHeader('Content-Type', 'application/pdf');
-            res.setHeader('Content-Disposition', 'attachment; filename="Muthubala_Resume.pdf"');
+            res.setHeader('Content-Disposition', 'inline; filename="Muthubala_Resume.pdf"');
           }
           next();
         });

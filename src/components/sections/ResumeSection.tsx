@@ -70,7 +70,8 @@ export const ResumeSection: React.FC = () => {
 
             <a
               href="/resume/Muthubala_Resume.pdf"
-              download="Muthubala_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="neo-btn neo-btn--yellow"
               aria-label="Download Muthubala 2-Page Resume PDF"
             >

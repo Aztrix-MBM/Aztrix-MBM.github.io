@@ -90,7 +90,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
 
               <a
                 href="/resume/Muthubala_Resume.pdf"
-                download="Muthubala_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="neo-btn"
                 aria-label="Download Muthubala Resume PDF"
               >
