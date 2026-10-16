@@ -39,11 +39,11 @@ export const skillsCategories: SkillCategory[] = [
     accentColor: "var(--color-yellow)",
     skills: [
       { name: "Python", level: "Advanced", highlight: true },
-      { name: "Java", level: "Intermediate" },
+      { name: "Java", level: "Advanced", highlight: true },
       { name: "C++", level: "Intermediate" },
-      { name: "JavaScript (ES6+)", level: "Advanced", highlight: true },
-      { name: "TypeScript", level: "Advanced" },
-      { name: "SQL", level: "Proficient" }
+      { name: "JavaScript (ES6+)", level: "Intermediate" },
+      { name: "TypeScript", level: "Intermediate" },
+      { name: "SQL", level: "Intermediate" }
     ]
   },
   {
@@ -51,13 +51,13 @@ export const skillsCategories: SkillCategory[] = [
     description: "Model engineering, neural networks, computer vision, and generative agent pipelines.",
     accentColor: "var(--color-purple)",
     skills: [
-      { name: "PyTorch & TensorFlow", level: "Proficient" },
-      { name: "OpenCV", level: "Advanced", highlight: true },
-      { name: "MediaPipe", level: "Advanced" },
-      { name: "Google Gemini API", level: "Advanced", highlight: true },
+      { name: "PyTorch & TensorFlow", level: "Intermediate" },
+      { name: "OpenCV", level: "Intermediate" },
+      { name: "MediaPipe", level: "Intermediate" },
+      { name: "Google Gemini API", level: "Intermediate" },
       { name: "LangChain", level: "Intermediate" },
-      { name: "Scikit-Learn", level: "Proficient" },
-      { name: "Pandas & NumPy", level: "Advanced" }
+      { name: "Scikit-Learn", level: "Intermediate" },
+      { name: "Pandas & NumPy", level: "Intermediate" }
     ]
   },
   {
@@ -65,12 +65,12 @@ export const skillsCategories: SkillCategory[] = [
     description: "Crafting modern, accessible, responsive and high-performance interfaces and APIs.",
     accentColor: "var(--color-pink)",
     skills: [
-      { name: "React.js", level: "Advanced", highlight: true },
-      { name: "Next.js (App Router)", level: "Advanced", highlight: true },
-      { name: "FastAPI", level: "Advanced" },
-      { name: "Node.js & Express", level: "Proficient" },
-      { name: "RESTful API Design", level: "Advanced" },
-      { name: "Modern CSS & Neo-Brutalism", level: "Mastery" }
+      { name: "React.js", level: "Intermediate" },
+      { name: "Next.js (App Router)", level: "Intermediate" },
+      { name: "FastAPI", level: "Intermediate" },
+      { name: "Node.js & Express", level: "Intermediate" },
+      { name: "RESTful API Design", level: "Intermediate" },
+      { name: "Modern CSS & Neo-Brutalism", level: "Intermediate" }
     ]
   },
   {
@@ -78,12 +78,12 @@ export const skillsCategories: SkillCategory[] = [
     description: "Data persistence, schema design, containerization, and deployment pipelines.",
     accentColor: "var(--color-green)",
     skills: [
-      { name: "PostgreSQL & Supabase", level: "Advanced", highlight: true },
-      { name: "MySQL", level: "Proficient" },
+      { name: "PostgreSQL & Supabase", level: "Intermediate" },
+      { name: "MySQL", level: "Advanced", highlight: true },
       { name: "MongoDB", level: "Intermediate" },
       { name: "Docker", level: "Intermediate" },
-      { name: "Git & GitHub Actions", level: "Advanced", highlight: true },
-      { name: "Linux Environments", level: "Proficient" }
+      { name: "Git & GitHub Actions", level: "Intermediate" },
+      { name: "Linux Environments", level: "Intermediate" }
     ]
   },
   {
@@ -91,11 +91,11 @@ export const skillsCategories: SkillCategory[] = [
     description: "Physical computing, sensor telemetry acquisition, and embedded communication.",
     accentColor: "var(--color-yellow)",
     skills: [
-      { name: "Arduino Microcontrollers", level: "Advanced", highlight: true },
-      { name: "ESP32 Wi-Fi / Bluetooth", level: "Proficient" },
-      { name: "MQTT Protocol", level: "Proficient" },
-      { name: "Sensor Telemetry & Actuators", level: "Advanced" },
-      { name: "Serial I/O & Embedded C++", level: "Proficient" }
+      { name: "Arduino Microcontrollers", level: "Intermediate" },
+      { name: "ESP32 Wi-Fi / Bluetooth", level: "Intermediate" },
+      { name: "MQTT Protocol", level: "Intermediate" },
+      { name: "Sensor Telemetry & Actuators", level: "Intermediate" },
+      { name: "Serial I/O & Embedded C++", level: "Intermediate" }
     ]
   }
 ];
