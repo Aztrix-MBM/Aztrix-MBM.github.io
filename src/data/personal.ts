@@ -4,6 +4,7 @@ export interface PersonalInfo {
   lastName: string;
   role: string;
   badge: string;
+  dynamicRoles: string[];
   pitch: string;
   story: string[];
   education: {
@@ -38,7 +39,12 @@ export const personalData: PersonalInfo = {
   firstName: "MUTHUBALAMURUGAN",
   lastName: "",
   role: "AI & Data Science Student",
-  badge: "AI & DATA SCIENCE STUDENT",
+  badge: "SOFTWARE ENGINEER",
+  dynamicRoles: [
+    "SOFTWARE ENGINEER",
+    "AI DEVELOPER",
+    "FOUNDER OF AZTRIX & CO"
+  ],
   pitch: "I build web applications, AI solutions and turn ideas into real products.",
   story: [
     "I am an Artificial Intelligence & Data Science student with a focus on engineering high-impact software.",

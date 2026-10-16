@@ -583,12 +583,13 @@ img, svg {
 .hero-badge-tag {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   font-family: var(--font-mono);
   font-size: var(--text-sm);
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  min-height: 28px;
 }
 
 .hero-badge-tag__dot {
@@ -597,6 +598,69 @@ img, svg {
   border-radius: 50%;
   background-color: var(--color-purple);
   border: 2px solid var(--color-black);
+  flex-shrink: 0;
+  box-shadow: 1.5px 1.5px 0 var(--color-black);
+  animation: badgeDotPulse 2.5s ease-in-out infinite;
+}
+
+@keyframes badgeDotPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.85;
+  }
+}
+
+.hero-role-flipper {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 1.6em;
+  line-height: 1.6em;
+  vertical-align: middle;
+}
+
+.hero-role-text {
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform, opacity;
+}
+
+.hero-role-text--visible {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 0.38s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease-out;
+}
+
+.hero-role-text--exit {
+  transform: translateY(-120%);
+  opacity: 0;
+  transition: transform 0.28s cubic-bezier(0.7, 0, 0.84, 0), opacity 0.22s ease-in;
+}
+
+.hero-role-text--enter {
+  transform: translateY(120%);
+  opacity: 0;
+  transition: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-badge-tag__dot {
+    animation: none;
+  }
+  .hero-role-text--visible,
+  .hero-role-text--exit {
+    transform: none !important;
+    transition: opacity 0.3s ease !important;
+  }
+  .hero-role-text--enter {
+    transform: none !important;
+    opacity: 0;
+  }
 }
 
 .hero-headline {

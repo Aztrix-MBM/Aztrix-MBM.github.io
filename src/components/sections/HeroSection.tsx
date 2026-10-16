@@ -12,6 +12,7 @@ import {
   IconTrophy,
   IconUsers
 } from '../ui/Icons';
+import { DynamicRoleTicker } from '../ui/DynamicRoleTicker';
 
 interface HeroSectionProps {
   onNavigate?: (tabId: string) => void;
@@ -64,7 +65,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onNavigate }) => {
           <div className="hero-left">
             <div className="hero-badge-tag">
               <span className="hero-badge-tag__dot" aria-hidden="true" />
-              <span>{personalData.badge}</span>
+              <DynamicRoleTicker roles={personalData.dynamicRoles} interval={2800} />
             </div>
 
             <h1 className="hero-headline">
