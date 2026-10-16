@@ -154,7 +154,7 @@ export const ContactSection: React.FC = () => {
               {/* Social Channels */}
               <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginTop: '0.5rem' }}>
                 <a
-                  href="https://github.com/muthubalamurugan"
+                  href="https://github.com/Aztrix-MBM"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="neo-btn"

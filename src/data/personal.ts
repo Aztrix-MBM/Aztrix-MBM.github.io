@@ -90,9 +90,9 @@ export const personalData: PersonalInfo = {
   socials: [
     {
       name: "GitHub",
-      url: "https://github.com/muthubalamurugan",
+      url: "https://github.com/Aztrix-MBM",
       icon: "github",
-      handle: "@muthubalamurugan"
+      handle: "@Aztrix-MBM"
     },
     {
       name: "LinkedIn",

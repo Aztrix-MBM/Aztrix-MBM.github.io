@@ -46,7 +46,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab }) => {
 
             <div style={{ display: 'flex', gap: '10px' }}>
               <a
-                href="https://github.com/muthubalamurugan"
+                href="https://github.com/Aztrix-MBM"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="neo-btn"

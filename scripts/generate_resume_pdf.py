@@ -25,7 +25,7 @@ def create_2page_resume():
         "0.2 0.2 0.2 rg 50 795 495 2 re f",
         "BT /F2 22 Tf 0 0 0 rg 50 770 Td (MUTHUBALAMURUGAN) Tj ET",
         "BT /F1 11 Tf 0.3 0.3 0.3 rg 50 754 Td (ARTIFICIAL INTELLIGENCE & DATA SCIENCE ENGINEER) Tj ET",
-        "BT /F3 8 Tf 0.35 0.35 0.35 rg 50 738 Td (Tamil Nadu, India | Aztrixdev@gmail.com | linkedin.com/in/muthubala-murugan-814049383) Tj ET",
+        "BT /F3 7.8 Tf 0.35 0.35 0.35 rg 50 738 Td (Tamil Nadu, India | Aztrixdev@gmail.com | github.com/Aztrix-MBM | linkedin.com/in/muthubala-murugan-814049383) Tj ET",
         "0.85 0.85 0.85 rg 50 726 495 1 re f",
 
         # Header 1: Executive Profile

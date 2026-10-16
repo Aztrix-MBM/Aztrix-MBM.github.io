@@ -38,7 +38,7 @@ export const projectsData: Project[] = [
     ],
     image: "/images/echoverse-ai.svg",
     liveUrl: "https://echoverse-ai.vercel.app",
-    repoUrl: "https://github.com/muthubalamurugan/echoverse-ai",
+    repoUrl: "https://github.com/Aztrix-MBM/echoverse-ai",
     featured: true,
     accentColor: "var(--color-purple)",
     details: {
@@ -64,7 +64,7 @@ export const projectsData: Project[] = [
     ],
     image: "/images/student-os.svg",
     liveUrl: "https://ai-student-os.vercel.app",
-    repoUrl: "https://github.com/muthubalamurugan/ai-student-os",
+    repoUrl: "https://github.com/Aztrix-MBM/ai-student-os",
     featured: true,
     accentColor: "var(--color-yellow)",
     details: {
@@ -90,7 +90,7 @@ export const projectsData: Project[] = [
     ],
     image: "/images/motor-monitor.svg",
     liveUrl: "https://motor-health-telemetry.streamlit.app",
-    repoUrl: "https://github.com/muthubalamurugan/motor-health-monitor",
+    repoUrl: "https://github.com/Aztrix-MBM/motor-health-monitor",
     featured: true,
     accentColor: "var(--color-green)",
     details: {
@@ -115,8 +115,8 @@ export const projectsData: Project[] = [
       "Zero-latency lightweight local processing running at 60 FPS on standard webcam hardware"
     ],
     image: "/images/eye-moment.svg",
-    liveUrl: "https://github.com/muthubalamurugan/Eye-Moment",
-    repoUrl: "https://github.com/muthubalamurugan/Eye-Moment",
+    liveUrl: "https://github.com/Aztrix-MBM/Eye-Moment",
+    repoUrl: "https://github.com/Aztrix-MBM/Eye-Moment",
     featured: false,
     accentColor: "var(--color-pink)",
     details: {

@@ -113,12 +113,12 @@ export const ResumeSection: React.FC = () => {
                   <strong>EMAIL:</strong> {personalData.email}
                 </span>
                 <a
-                  href="https://github.com/muthubalamurugan"
+                  href="https://github.com/Aztrix-MBM"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="resume-sheet__pill resume-sheet__pill--link"
                 >
-                  <strong>GITHUB:</strong> github.com/muthubalamurugan
+                  <strong>GITHUB:</strong> github.com/Aztrix-MBM
                 </a>
                 <a
                   href="https://www.linkedin.com/in/muthubala-murugan-814049383"
