@@ -86,10 +86,10 @@ export const certificationsData: Certification[] = [
     title: "KARE OSS — Wonders of OS 3.0",
     issuer: "Kalasalingam University (KARE)",
     year: "2026",
-    category: "event",
-    categoryTag: "EVENT",
+    category: "competition",
+    categoryTag: "COMPETITION",
     skillsCovered: ["Operating Systems", "Open Source Software (OSS)", "System Architecture", "Euphoria Tech Fest"],
-    verifyUrl: "https://drive.google.com/file/d/1HqF05qnXvMY2nKicDPyDZL7BHxbARW46/view?usp=sharing",
-    badgeColor: "var(--color-pink)"
+    verifyUrl: "./certificates/kare_oss_wonders_of_os_landscape.png",
+    badgeColor: "var(--color-purple)"
   }
 ];
