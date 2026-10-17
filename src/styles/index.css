@@ -1475,6 +1475,34 @@ img, svg {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cert-card__category-badge {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--color-black);
+}
+
+.cert-card__category-badge--course {
+  background-color: var(--color-yellow);
+  color: var(--color-black);
+}
+
+.cert-card__category-badge--event {
+  background-color: var(--color-pink);
+  color: var(--color-black);
+}
+
+.cert-card__category-badge--competition {
+  background-color: var(--color-purple);
+  color: var(--color-white);
 }
 
 .cert-card__issuer {
