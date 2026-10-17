@@ -91,5 +91,16 @@ export const certificationsData: Certification[] = [
     skillsCovered: ["Operating Systems", "Open Source Software (OSS)", "System Architecture", "Euphoria Tech Fest"],
     verifyUrl: "https://drive.google.com/file/d/1-KHcallTZ2fDLXUKxsMLEudQTFu-iifT/view?usp=sharing",
     badgeColor: "var(--color-purple)"
+  },
+  {
+    id: "kare-wonders-of-ai-4-hackathon",
+    title: "Wonders Of AI 4.0 — 24 Hrs Hackathon",
+    issuer: "Kalasalingam University (KARE)",
+    year: "2026",
+    category: "competition",
+    categoryTag: "COMPETITION",
+    skillsCovered: ["Artificial Intelligence", "24-Hour Hackathon", "Rapid AI Prototyping", "School of Computing"],
+    verifyUrl: "https://drive.google.com/file/d/1Ku7RXUMBN69RRa0TUnnkwndMJ6QCHl8o/view?usp=sharing",
+    badgeColor: "var(--color-purple)"
   }
 ];
