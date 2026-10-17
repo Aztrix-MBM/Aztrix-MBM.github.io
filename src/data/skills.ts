@@ -28,7 +28,6 @@ export const toolsRibbon: ToolRibbonItem[] = [
   { name: "Next.js", shortCode: "NX", color: "#000000", category: "Production Framework" },
   { name: "Node.js", shortCode: "ND", color: "#339933", category: "Backend Runtime" },
   { name: "MySQL", shortCode: "SQL", color: "#4479A1", category: "Relational DB" },
-  { name: "Docker", shortCode: "DK", color: "#2496ED", category: "Containers" },
   { name: "Git", shortCode: "GIT", color: "#F05032", category: "Version Control" }
 ];
 
@@ -74,15 +73,13 @@ export const skillsCategories: SkillCategory[] = [
   },
   {
     title: "Databases, Cloud & DevOps",
-    description: "Data persistence, schema design, containerization, and deployment pipelines.",
+    description: "Data persistence, relational & NoSQL schema design, and CI/CD pipelines.",
     accentColor: "var(--color-green)",
     skills: [
       { name: "PostgreSQL & Supabase", level: "Intermediate" },
       { name: "MySQL", level: "Advanced", highlight: true },
       { name: "MongoDB", level: "Intermediate" },
-      { name: "Docker", level: "Intermediate" },
-      { name: "Git & GitHub Actions", level: "Intermediate" },
-      { name: "Linux Environments", level: "Intermediate" }
+      { name: "Git & GitHub Actions", level: "Intermediate" }
     ]
   }
 ];
