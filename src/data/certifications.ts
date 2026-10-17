@@ -80,16 +80,5 @@ export const certificationsData: Certification[] = [
     skillsCovered: ["Google Kubernetes Engine (GKE)", "Open Models", "Cloud Infrastructure", "Model Deployment"],
     verifyUrl: "https://drive.google.com/file/d/1Z45dxf2z9rnVplHIVok4JFRe2Mv4pf1m/view?usp=sharing",
     badgeColor: "var(--color-pink)"
-  },
-  {
-    id: "kare-oss-wonders-of-os",
-    title: "KARE OSS — Wonders of OS 3.0",
-    issuer: "Kalasalingam University (KARE)",
-    year: "2026",
-    category: "competition",
-    categoryTag: "COMPETITION",
-    skillsCovered: ["Operating Systems", "Open Source Software (OSS)", "System Architecture", "Euphoria Tech Fest"],
-    verifyUrl: "./certificates/kare_oss_wonders_of_os_landscape.png",
-    badgeColor: "var(--color-purple)"
   }
 ];
