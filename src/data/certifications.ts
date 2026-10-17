@@ -68,5 +68,17 @@ export const certificationsData: Certification[] = [
     skillsCovered: ["Machine Learning", "Python", "Scikit-Learn", "Data Preprocessing", "Model Training"],
     verifyUrl: "https://drive.google.com/file/d/1g5kh4lEa1QpOqV5x0ED4dC5BFUaYySvC/view?usp=sharing",
     badgeColor: "var(--color-yellow)"
+  },
+  {
+    id: "gdg-deploying-open-models-gke",
+    title: "Deploying Open Models on GKE",
+    issuer: "GDG Madurai",
+    year: "2026",
+    category: "event",
+    categoryTag: "EVENT",
+    credentialId: "P7QK-T2M9-W8R3-YL5B",
+    skillsCovered: ["Google Kubernetes Engine (GKE)", "Open Models", "Cloud Infrastructure", "Model Deployment"],
+    verifyUrl: "https://drive.google.com/file/d/1Z45dxf2z9rnVplHIVok4JFRe2Mv4pf1m/view?usp=sharing",
+    badgeColor: "var(--color-pink)"
   }
 ];
