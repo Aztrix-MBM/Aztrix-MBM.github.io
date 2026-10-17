@@ -1360,8 +1360,14 @@ img, svg {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: clamp(1.25rem, 2.5vw, 2rem);
+}
+
+@media (max-width: 860px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .skill-category-card {

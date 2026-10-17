@@ -85,17 +85,5 @@ export const skillsCategories: SkillCategory[] = [
       { name: "Git & GitHub Actions", level: "Intermediate" },
       { name: "Linux Environments", level: "Intermediate" }
     ]
-  },
-  {
-    title: "IoT & Embedded Hardware",
-    description: "Physical computing, sensor telemetry acquisition, and embedded communication.",
-    accentColor: "var(--color-yellow)",
-    skills: [
-      { name: "Arduino Microcontrollers", level: "Intermediate" },
-      { name: "ESP32 Wi-Fi / Bluetooth", level: "Intermediate" },
-      { name: "MQTT Protocol", level: "Intermediate" },
-      { name: "Sensor Telemetry & Actuators", level: "Intermediate" },
-      { name: "Serial I/O & Embedded C++", level: "Intermediate" }
-    ]
   }
 ];
