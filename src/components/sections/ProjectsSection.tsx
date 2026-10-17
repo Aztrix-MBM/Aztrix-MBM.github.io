@@ -8,7 +8,7 @@ export const ProjectsSection: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [filter, setFilter] = useState<string>('ALL');
 
-  const categories = ['ALL', 'AI / GenAI', 'Web App', 'IoT / Hardware', 'Computer Vision'];
+  const categories = ['ALL', 'AI / GenAI', 'Web App', 'Computer Vision'];
 
   const filteredProjects = filter === 'ALL'
     ? projectsData

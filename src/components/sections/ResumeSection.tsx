@@ -221,14 +221,14 @@ export const ResumeSection: React.FC = () => {
 
                   <div className="ref-resume-project-item">
                     <h4 className="ref-resume-proj-title">
-                      Motor Health Monitor <span className="ref-resume-dev-badge">(In Development)</span>
+                      Eye Moment Vision Controller <span className="ref-resume-dev-badge">(In Development)</span>
                     </h4>
                     <ul className="ref-resume-bullet-list">
                       <li>
-                        Designing an edge IoT condition monitoring system with 3-axis vibration spectral analysis,
-                        contactless thermal sensing, and predictive anomaly alerting.
+                        Developing a gaze-driven assistive navigation interface utilizing OpenCV and computer vision
+                        for hands-free computer control and accessibility.
                       </li>
-                      <li className="ref-resume-tech-line">Tech: Python, Arduino, Embedded C++, MQTT</li>
+                      <li className="ref-resume-tech-line">Tech: Python, OpenCV, MediaPipe, Tkinter</li>
                     </ul>
                   </div>
                 </div>

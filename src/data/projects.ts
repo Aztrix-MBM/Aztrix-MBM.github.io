@@ -2,7 +2,7 @@ export interface Project {
   id: string;
   title: string;
   categoryTag: string;
-  category: 'AI / GenAI' | 'Web App' | 'IoT / Hardware' | 'Computer Vision';
+  category: 'AI / GenAI' | 'Web App' | 'Computer Vision';
   oneLiner: string;
   role: string;
   stack: string[];
@@ -71,32 +71,6 @@ export const projectsData: Project[] = [
       overview: "An all-in-one productivity hub designed specifically for undergraduate engineering students juggling academics, labs, certifications, and portfolio projects.",
       architecture: "Next.js App Router frontend with server-side authentication, real-time data streaming via Supabase PostgreSQL triggers, and asynchronous background queues for AI document summarization.",
       impact: "Reduced exam preparation sprint planning time by 40% among peer beta testers in university cohorts."
-    }
-  },
-  {
-    id: "motor-health-monitor",
-    title: "Motor Health Monitor",
-    categoryTag: "IOT / HARDWARE",
-    category: "IoT / Hardware",
-    oneLiner: "Real-time monitoring of motor health using Arduino and sensors.",
-    role: "IoT Embedded Systems & Analytics Engineer",
-    stack: ["Arduino", "Embedded C++", "Python", "MQTT", "Streamlit", "Accelerometer", "Thermal Sensors"],
-    problemSolved: "Industrial electric motors frequently fail without advance warning, resulting in expensive downtime and safety hazards. Motor Health Monitor introduces non-invasive continuous telemetry to detect mechanical bearing wear and electrical anomalies before breakdown.",
-    features: [
-      "Sub-millisecond 3-axis vibration spectrum acquisition with MPU-6050 accelerometer",
-      "Contactless infrared thermal sensing for instantaneous hotspot detection",
-      "Lightweight MQTT publisher streaming continuous telemetry to edge analytics gateway",
-      "Threshold-based predictive anomaly alerting triggering SMS / email maintenance dispatches"
-    ],
-    image: "/images/motor-monitor.svg",
-    liveUrl: "https://motor-health-telemetry.streamlit.app",
-    repoUrl: "https://github.com/Aztrix-MBM/motor-health-monitor",
-    featured: true,
-    accentColor: "var(--color-green)",
-    details: {
-      overview: "A cost-effective edge IoT condition monitoring prototype engineered to bring Industry 4.0 predictive maintenance capabilities to standard laboratory and industrial AC motors.",
-      architecture: "Microcontroller running custom embedded C++ sampling routine; sensor payloads packaged into JSON packets and transmitted over Wi-Fi/MQTT broker to a Python analytics engine.",
-      impact: "Successfully demonstrated 95%+ precision in simulated bearing misalignment and rotor overheating detections in electrical machinery lab."
     }
   },
   {

@@ -22,7 +22,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
 endobj
 8 0 obj
-<< /Length 5528 >>
+<< /Length 5542 >>
 stream
 q
 BT /F2 22 Tf 0.12 0.25 0.68 rg 180 795 Td (Muthubalamurugan) Tj ET
@@ -65,10 +65,10 @@ BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 595 Td (AI Student OS (In Development)) Tj E
 BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 583 Td (- Built student productivity ecosystem with course management, automated) Tj ET
 BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 572 Td (  syllabus-to-flashcard generation, and adaptive study scheduling.) Tj ET
 BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 561 Td (- Tech: Next.js, TypeScript, PostgreSQL, Supabase) Tj ET
-BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 541 Td (Motor Health Monitor (In Development)) Tj ET
-BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 529 Td (- Designing edge IoT condition monitoring with 3-axis vibration FFT spectrum,) Tj ET
-BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 518 Td (  contactless thermal sensing, and predictive anomaly alerting.) Tj ET
-BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 507 Td (- Tech: Python, Arduino, Embedded C++, MQTT) Tj ET
+BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 541 Td (Eye Moment Vision Controller (In Development)) Tj ET
+BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 529 Td (- Gaze-driven assistive navigation interface utilizing OpenCV computer vision) Tj ET
+BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 518 Td (  and gaze tracking for hands-free computer control and accessibility.) Tj ET
+BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 507 Td (- Tech: Python, OpenCV, MediaPipe, Tkinter) Tj ET
 BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 481 Td (TECHNICAL EXPERIENCE) Tj ET
 BT /F2 8.5 Tf 0.1 0.1 0.1 rg 250 467 Td (Self Learning & Personal Projects) Tj /F2 8 Tf 0.3 0.3 0.3 rg 150 0 Td (2025 - Present) Tj ET
 BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 454 Td (- Developed multiple software & AI projects using Python, React, full-stack.) Tj ET
@@ -156,9 +156,9 @@ xref
 0000000528 00000 n 
 0000000630 00000 n 
 0000000725 00000 n 
-0000006305 00000 n 
+0000006319 00000 n 
 trailer
 << /Size 10 /Root 1 0 R >>
 startxref
-10249
+10263
 %%EOF

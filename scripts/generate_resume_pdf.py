@@ -70,10 +70,10 @@ def create_2page_resume():
         "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 572 Td (  syllabus-to-flashcard generation, and adaptive study scheduling.) Tj ET",
         "BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 561 Td (- Tech: Next.js, TypeScript, PostgreSQL, Supabase) Tj ET",
 
-        "BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 541 Td (Motor Health Monitor (In Development)) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 529 Td (- Designing edge IoT condition monitoring with 3-axis vibration FFT spectrum,) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 518 Td (  contactless thermal sensing, and predictive anomaly alerting.) Tj ET",
-        "BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 507 Td (- Tech: Python, Arduino, Embedded C++, MQTT) Tj ET",
+        "BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 541 Td (Eye Moment Vision Controller (In Development)) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 529 Td (- Gaze-driven assistive navigation interface utilizing OpenCV computer vision) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 518 Td (  and gaze tracking for hands-free computer control and accessibility.) Tj ET",
+        "BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 507 Td (- Tech: Python, OpenCV, MediaPipe, Tkinter) Tj ET",
 
         # Technical Experience
         "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 481 Td (TECHNICAL EXPERIENCE) Tj ET",
