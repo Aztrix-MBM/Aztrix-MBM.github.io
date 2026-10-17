@@ -53,7 +53,6 @@ export const skillsCategories: SkillCategory[] = [
     skills: [
       { name: "PyTorch & TensorFlow", level: "Intermediate" },
       { name: "OpenCV", level: "Intermediate" },
-      { name: "MediaPipe", level: "Intermediate" },
       { name: "Google Gemini API", level: "Intermediate" },
       { name: "LangChain", level: "Intermediate" },
       { name: "Scikit-Learn", level: "Intermediate" },
