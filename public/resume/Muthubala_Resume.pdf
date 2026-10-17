@@ -22,7 +22,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
 endobj
 8 0 obj
-<< /Length 5379 >>
+<< /Length 5528 >>
 stream
 q
 BT /F2 22 Tf 0.12 0.25 0.68 rg 180 795 Td (Muthubalamurugan) Tj ET
@@ -76,16 +76,18 @@ BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 442 Td (- Completed 29+ professional certific
 BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 430 Td (- Enhancing expertise in ML, databases, system architecture & modern SWE.) Tj ET
 BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 418 Td (- Exploring full-stack development, agentic AI pipelines & backend systems.) Tj ET
 BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 392 Td (SKILLS) Tj ET
-BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 378 Td (- AI Fundamentals) Tj ET
-BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 365 Td (- Data Science Fundamentals) Tj ET
-BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 352 Td (- Python Programming (Advanced)) Tj ET
-BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 339 Td (- Java Programming (Advanced)) Tj ET
-BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 326 Td (- MySQL Architecture (Advanced)) Tj ET
-BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 378 Td (- Advanced Computing) Tj ET
-BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 365 Td (- System Architecture) Tj ET
-BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 352 Td (- Code Analysis) Tj ET
-BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 339 Td (- Problem Solving) Tj ET
-BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 326 Td (- System Optimization) Tj ET
+BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 378 Td (- AI Fundamentals) Tj ET
+BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 366 Td (- Data Science Fundamentals) Tj ET
+BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 354 Td (- Python Programming (Advanced)) Tj ET
+BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 342 Td (- Java Programming (Advanced)) Tj ET
+BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 330 Td (- C Programming (Advanced)) Tj ET
+BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 318 Td (- MySQL Architecture (Advanced)) Tj ET
+BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 378 Td (- Advanced Computing) Tj ET
+BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 366 Td (- System Architecture) Tj ET
+BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 354 Td (- Code Analysis) Tj ET
+BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 342 Td (- Problem Solving) Tj ET
+BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 330 Td (- System Optimization) Tj ET
+BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 318 Td (- Continuous Learning) Tj ET
 Q
 endstream
 endobj
@@ -154,9 +156,9 @@ xref
 0000000528 00000 n 
 0000000630 00000 n 
 0000000725 00000 n 
-0000006156 00000 n 
+0000006305 00000 n 
 trailer
 << /Size 10 /Root 1 0 R >>
 startxref
-10100
+10249
 %%EOF

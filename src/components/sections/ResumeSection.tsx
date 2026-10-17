@@ -257,6 +257,7 @@ export const ResumeSection: React.FC = () => {
                       <li>Data Science Fundamentals</li>
                       <li>Python Programming (Advanced)</li>
                       <li>Java Programming (Advanced)</li>
+                      <li>C Programming (Advanced)</li>
                       <li>MySQL Architecture (Advanced)</li>
                     </ul>
                     <ul className="ref-resume-bullet-list">

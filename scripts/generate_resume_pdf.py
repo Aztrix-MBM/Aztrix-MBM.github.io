@@ -86,17 +86,19 @@ def create_2page_resume():
         # Skills
         "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 392 Td (SKILLS) Tj ET",
         # Col 1
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 378 Td (- AI Fundamentals) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 365 Td (- Data Science Fundamentals) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 352 Td (- Python Programming (Advanced)) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 339 Td (- Java Programming (Advanced)) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 326 Td (- MySQL Architecture (Advanced)) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 378 Td (- AI Fundamentals) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 366 Td (- Data Science Fundamentals) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 354 Td (- Python Programming (Advanced)) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 342 Td (- Java Programming (Advanced)) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 330 Td (- C Programming (Advanced)) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 318 Td (- MySQL Architecture (Advanced)) Tj ET",
         # Col 2
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 378 Td (- Advanced Computing) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 365 Td (- System Architecture) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 352 Td (- Code Analysis) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 339 Td (- Problem Solving) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 405 326 Td (- System Optimization) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 378 Td (- Advanced Computing) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 366 Td (- System Architecture) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 354 Td (- Code Analysis) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 342 Td (- Problem Solving) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 330 Td (- System Optimization) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 318 Td (- Continuous Learning) Tj ET",
 
         "Q"
     ]
