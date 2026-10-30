@@ -64,7 +64,7 @@ export const projectsData: Project[] = [
       "Soft Streak Habit Tracker: Continuous habit retention system equipped with a 1-day grace buffer to prevent momentum collapse",
       "Production-Grade Security & Performance: JWT session management, strict CORS protocols, and automated free-tier cold-start warmup resilience"
     ],
-    image: "/images/student-os.svg",
+    image: "/images/student-os.jpg",
     liveUrl: "https://student-os-delta-plum.vercel.app",
     repoUrl: "https://github.com/Aztrix-MBM/student-os",
     featured: true,
