@@ -49,28 +49,30 @@ export const projectsData: Project[] = [
   },
   {
     id: "ai-student-os",
-    title: "AI Student OS",
-    categoryTag: "WEB APP",
+    title: "Student OS – AI Academic Cockpit",
+    categoryTag: "FULL-STACK AI",
     category: "Web App",
-    oneLiner: "A complete student productivity platform with AI assistant, notes, certificates and project management.",
-    role: "Full-Stack Architect & UI Designer",
-    stack: ["Next.js", "TypeScript", "Supabase", "PostgreSQL", "LangChain", "CSS Modules"],
-    problemSolved: "College students struggle with fragmented workflows across scattered LMS platforms, syllabus PDFs, handwritten notes, and separate exam trackers. AI Student OS centralizes the entire student lifecycle into an intelligent, cohesive operating dashboard.",
+    oneLiner: "AI-powered academic cockpit featuring intelligent daily study planning, Ebbinghaus exam readiness modeling, and syllabus tracking.",
+    role: "Lead Full-Stack Architect & Core Engine Developer",
+    stack: ["React 18", "TypeScript", "Python 3.12", "FastAPI", "PostgreSQL", "Supabase", "SQLAlchemy", "Vercel", "Render"],
+    problemSolved: "College students struggle with fragmented academic workflows across separate syllabus PDFs, exam schedules, and notes without an intelligent strategy. Student OS acts as an academic cockpit that dynamically calculates exam readiness and auto-schedules daily revision using algorithmic cognitive models.",
     features: [
-      "Automated syllabus-to-flashcard generator using contextual LLM document chunking",
-      "Centralized course dashboard tracking attendance, assignments, and semester CGPA targets",
-      "Intelligent study scheduler that adapts to upcoming exam deadlines and past retention scores",
-      "Verified credentials and project vault to showcase verified academic accomplishments"
+      "AI Daily Study Planner: Algorithmic scheduling adapting to study budget, exam proximity, and syllabus difficulty using greedy priority heuristics",
+      "Exam Readiness Engine: Mathematical readiness forecasting (Readiness %) utilizing the Ebbinghaus Spaced Repetition Forgetting Curve",
+      "Syllabus AI & Topic Breakdown: Unit-level tracking with intuitive 1-tap mastery ratings (Strong / Okay / Weak)",
+      "Dual-Layer Progress Synchronization: Sub-second state updates synchronized across Supabase PostgreSQL and client cache",
+      "Soft Streak Habit Tracker: Continuous habit retention system equipped with a 1-day grace buffer to prevent momentum collapse",
+      "Production-Grade Security & Performance: JWT session management, strict CORS protocols, and automated free-tier cold-start warmup resilience"
     ],
     image: "/images/student-os.svg",
-    liveUrl: "https://ai-student-os.vercel.app",
-    repoUrl: "https://github.com/Aztrix-MBM/ai-student-os",
+    liveUrl: "https://student-os-delta-plum.vercel.app",
+    repoUrl: "https://github.com/Aztrix-MBM/student-os",
     featured: true,
     accentColor: "var(--color-yellow)",
     details: {
-      overview: "An all-in-one productivity hub designed specifically for undergraduate engineering students juggling academics, labs, certifications, and portfolio projects.",
-      architecture: "Next.js App Router frontend with server-side authentication, real-time data streaming via Supabase PostgreSQL triggers, and asynchronous background queues for AI document summarization.",
-      impact: "Reduced exam preparation sprint planning time by 40% among peer beta testers in university cohorts."
+      overview: "Student OS is a production-deployed academic cockpit engineered for undergraduate engineering students. It bridges cognitive psychology (Ebbinghaus Spaced Repetition) and algorithmic optimization (Greedy Priority Scheduler) to maximize retention and eliminate exam cramming.",
+      architecture: "Decoupled full-stack architecture featuring a React 18 / Vite / TypeScript Claymorphism frontend hosted on Vercel CI/CD, communicating via JWT-authenticated REST APIs with a high-performance Python 3.12 / FastAPI backend deployed on Render, backed by Supabase PostgreSQL with connection pooling.",
+      impact: "Live production deployment serving active student users with real-time study scheduling and exam readiness analytics."
     }
   },
   {

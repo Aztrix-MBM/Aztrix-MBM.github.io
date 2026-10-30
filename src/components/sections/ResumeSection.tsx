@@ -208,14 +208,14 @@ export const ResumeSection: React.FC = () => {
 
                   <div className="ref-resume-project-item">
                     <h4 className="ref-resume-proj-title">
-                      AI Student OS <span className="ref-resume-dev-badge">(In Development)</span>
+                      Student OS – AI Academic Cockpit
                     </h4>
                     <ul className="ref-resume-bullet-list">
                       <li>
-                        Built a complete student productivity ecosystem with course management, automated
-                        syllabus-to-flashcard generation, and adaptive study scheduling.
+                        Architected an academic cockpit featuring an AI Daily Study Planner, Ebbinghaus forgetting curve
+                        exam readiness engine, and unit-level syllabus tracking with real-time Supabase PostgreSQL synchronization.
                       </li>
-                      <li className="ref-resume-tech-line">Tech: Next.js, TypeScript, PostgreSQL, Supabase</li>
+                      <li className="ref-resume-tech-line">Tech: React 18, TypeScript, Python 3.12, FastAPI, Supabase, PostgreSQL</li>
                     </ul>
                   </div>
 

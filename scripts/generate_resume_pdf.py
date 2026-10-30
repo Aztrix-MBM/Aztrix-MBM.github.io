@@ -65,10 +65,10 @@ def create_2page_resume():
         "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 626 Td (  across branching realities with real-time streaming intelligence.) Tj ET",
         "BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 615 Td (- Tech: Python, FastAPI, React, Google Gemini API) Tj ET",
 
-        "BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 595 Td (AI Student OS (In Development)) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 583 Td (- Built student productivity ecosystem with course management, automated) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 572 Td (  syllabus-to-flashcard generation, and adaptive study scheduling.) Tj ET",
-        "BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 561 Td (- Tech: Next.js, TypeScript, PostgreSQL, Supabase) Tj ET",
+        "BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 595 Td (Student OS - AI Academic Cockpit) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 583 Td (- Full-stack cockpit with AI study planner, Ebbinghaus readiness modeling,) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 572 Td (  unit-level syllabus mastery, and dual-layer PostgreSQL synchronization.) Tj ET",
+        "BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 561 Td (- Tech: React 18, TypeScript, Python 3.12, FastAPI, Supabase, PostgreSQL) Tj ET",
 
         "BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 541 Td (Eye Moment Vision Controller (In Development)) Tj ET",
         "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 529 Td (- Gaze-driven assistive navigation interface utilizing OpenCV computer vision) Tj ET",
