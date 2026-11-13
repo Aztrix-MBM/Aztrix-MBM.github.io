@@ -70,35 +70,30 @@ def create_2page_resume():
         "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 572 Td (  unit-level syllabus mastery, and dual-layer PostgreSQL synchronization.) Tj ET",
         "BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 561 Td (- Tech: React 18, TypeScript, Python 3.12, FastAPI, Supabase, PostgreSQL) Tj ET",
 
-        "BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 541 Td (Eye Moment Vision Controller (In Development)) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 529 Td (- Gaze-driven assistive navigation interface utilizing OpenCV computer vision) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 518 Td (  and gaze tracking for hands-free computer control and accessibility.) Tj ET",
-        "BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 507 Td (- Tech: Python, OpenCV, MediaPipe, Tkinter) Tj ET",
-
         # Technical Experience
-        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 481 Td (TECHNICAL EXPERIENCE) Tj ET",
-        "BT /F2 8.5 Tf 0.1 0.1 0.1 rg 250 467 Td (Self Learning & Personal Projects) Tj /F2 8 Tf 0.3 0.3 0.3 rg 150 0 Td (2025 - Present) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 454 Td (- Developed multiple software & AI projects using Python, React, full-stack.) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 442 Td (- Completed 29+ professional certifications across AI, Data Science & Cloud.) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 430 Td (- Enhancing expertise in ML, databases, system architecture & modern SWE.) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 418 Td (- Exploring full-stack development, agentic AI pipelines & backend systems.) Tj ET",
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 525 Td (TECHNICAL EXPERIENCE) Tj ET",
+        "BT /F2 8.5 Tf 0.1 0.1 0.1 rg 250 510 Td (Self Learning & Personal Projects) Tj /F2 8 Tf 0.3 0.3 0.3 rg 150 0 Td (2025 - Present) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 496 Td (- Developed multiple software & AI projects using Python, React, full-stack.) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 483 Td (- Completed 29+ professional certifications across AI, Data Science & Cloud.) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 470 Td (- Enhancing expertise in ML, databases, system architecture & modern SWE.) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 457 Td (- Exploring full-stack development, agentic AI pipelines & backend systems.) Tj ET",
 
         # Skills
-        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 392 Td (SKILLS) Tj ET",
+        "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 425 Td (SKILLS) Tj ET",
         # Col 1
-        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 378 Td (- AI Fundamentals) Tj ET",
-        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 366 Td (- Data Science Fundamentals) Tj ET",
-        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 354 Td (- Python Programming (Advanced)) Tj ET",
-        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 342 Td (- Java Programming (Advanced)) Tj ET",
-        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 330 Td (- C Programming (Advanced)) Tj ET",
-        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 318 Td (- MySQL Architecture (Advanced)) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 410 Td (- AI Fundamentals) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 397 Td (- Data Science Fundamentals) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 384 Td (- Python Programming (Advanced)) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 371 Td (- Java Programming (Advanced)) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 358 Td (- C Programming (Advanced)) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 250 345 Td (- MySQL Architecture (Advanced)) Tj ET",
         # Col 2
-        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 378 Td (- Advanced Computing) Tj ET",
-        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 366 Td (- System Architecture) Tj ET",
-        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 354 Td (- Code Analysis) Tj ET",
-        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 342 Td (- Problem Solving) Tj ET",
-        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 330 Td (- System Optimization) Tj ET",
-        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 318 Td (- Continuous Learning) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 410 Td (- Advanced Computing) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 397 Td (- System Architecture) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 384 Td (- Code Analysis) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 371 Td (- Problem Solving) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 358 Td (- System Optimization) Tj ET",
+        "BT /F1 8.0 Tf 0.2 0.25 0.35 rg 405 345 Td (- Continuous Learning) Tj ET",
 
         "Q"
     ]

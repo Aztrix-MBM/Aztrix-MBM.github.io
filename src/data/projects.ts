@@ -2,7 +2,7 @@ export interface Project {
   id: string;
   title: string;
   categoryTag: string;
-  category: 'AI / GenAI' | 'Web App' | 'Computer Vision';
+  category: 'AI / GenAI' | 'Web App';
   oneLiner: string;
   role: string;
   stack: string[];
@@ -74,32 +74,6 @@ export const projectsData: Project[] = [
       overview: "Student OS is a production-deployed academic cockpit engineered for undergraduate engineering students. It bridges cognitive psychology (Ebbinghaus Spaced Repetition) and algorithmic optimization (Greedy Priority Scheduler) to maximize retention and eliminate exam cramming.",
       architecture: "Decoupled full-stack architecture featuring a React 18 / Vite / TypeScript Claymorphism frontend hosted on Vercel CI/CD, communicating via JWT-authenticated REST APIs with a high-performance Python 3.12 / FastAPI backend deployed on Render, backed by Supabase PostgreSQL with connection pooling.",
       impact: "Live production deployment serving active student users with real-time study scheduling and exam readiness analytics."
-    }
-  },
-  {
-    id: "eye-moment",
-    title: "Eye Moment Vision Controller",
-    categoryTag: "COMPUTER VISION",
-    category: "Computer Vision",
-    oneLiner: "Accessibility tool leveraging OpenCV and MediaPipe for gaze-driven cursor navigation and assistive control.",
-    role: "Computer Vision & Human-Computer Interface Engineer",
-    stack: ["Python", "OpenCV", "MediaPipe", "PyAutoGUI", "NumPy", "Tkinter"],
-    problemSolved: "Provides individuals with severe motor disabilities or hand impairment the ability to interact with computers smoothly using only eye gaze and intentional blink gestures.",
-    features: [
-      "Sub-pixel iris center tracking and head pose normalization using 468 3D facial landmarks",
-      "Dynamic eye aspect ratio (EAR) calculation to distinguish involuntary blinks from deliberate click commands",
-      "Adaptive exponential smoothing filter eliminating cursor jitter without introducing perceived input lag",
-      "Zero-latency lightweight local processing running at 60 FPS on standard webcam hardware"
-    ],
-    image: "/images/eye-moment.svg",
-    liveUrl: "https://github.com/Aztrix-MBM/Eye-Moment",
-    repoUrl: "https://github.com/Aztrix-MBM/Eye-Moment",
-    featured: false,
-    accentColor: "var(--color-pink)",
-    details: {
-      overview: "An assistive technology project enabling complete hands-free navigation across Windows desktop environments through high-accuracy gaze estimation.",
-      architecture: "Video stream captured from OpenCV, processed through MediaPipe Face Mesh; normalized coordinate deltas mapped to monitor screen resolution via PyAutoGUI.",
-      impact: "Empowers assistive accessibility without requiring costly proprietary eye-tracker hardware."
     }
   }
 ];

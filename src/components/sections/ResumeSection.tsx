@@ -218,19 +218,6 @@ export const ResumeSection: React.FC = () => {
                       <li className="ref-resume-tech-line">Tech: React 18, TypeScript, Python 3.12, FastAPI, Supabase, PostgreSQL</li>
                     </ul>
                   </div>
-
-                  <div className="ref-resume-project-item">
-                    <h4 className="ref-resume-proj-title">
-                      Eye Moment Vision Controller <span className="ref-resume-dev-badge">(In Development)</span>
-                    </h4>
-                    <ul className="ref-resume-bullet-list">
-                      <li>
-                        Developing a gaze-driven assistive navigation interface utilizing OpenCV and computer vision
-                        for hands-free computer control and accessibility.
-                      </li>
-                      <li className="ref-resume-tech-line">Tech: Python, OpenCV, MediaPipe, Tkinter</li>
-                    </ul>
-                  </div>
                 </div>
 
                 {/* TECHNICAL EXPERIENCE */}
