@@ -78,7 +78,7 @@ export const personalData: PersonalInfo = {
   stats: [
     {
       label: "PROJECTS",
-      value: "5+",
+      value: "2",
       sublabel: "Completed builds",
       color: "var(--color-yellow)",
       icon: "folder"
