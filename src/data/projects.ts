@@ -37,7 +37,7 @@ export const projectsData: Project[] = [
       "Reflective Echo Synthesis: Dynamic extraction and generation of personalized takeaway 'Echoes' from the conversation",
       "Immersive Cyber-Minimalist UI: Fluid transitions built with Next.js 14 App Router, Tailwind CSS, and Framer Motion"
     ],
-    image: "/images/echoverse-ai.png",
+    image: "/images/echoverse-ai.jpg",
     liveUrl: "https://echoverse-ai.vercel.app",
     repoUrl: "https://github.com/Aztrix-MBM/echoverse-ai",
     featured: true,
