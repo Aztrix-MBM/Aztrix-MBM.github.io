@@ -60,10 +60,10 @@ def create_2page_resume():
         # Projects
         "BT /F2 10.5 Tf 0.12 0.23 0.54 rg 250 665 Td (PROJECTS) Tj ET",
         
-        "BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 649 Td (EchoVerse AI (In Development)) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 637 Td (- Developed a generative AI platform featuring dynamic timeline simulation) Tj ET",
-        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 626 Td (  across branching realities with real-time streaming intelligence.) Tj ET",
-        "BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 615 Td (- Tech: Python, FastAPI, React, Google Gemini API) Tj ET",
+        "BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 649 Td (EchoVerse AI - Alternate Reality Engine) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 637 Td (- Reflective generative AI platform for streaming dialogue with counterfactual) Tj ET",
+        "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 626 Td (  alternate personas, low-latency streaming, and personalized takeaways.) Tj ET",
+        "BT /F2 8.2 Tf 0.1 0.1 0.1 rg 250 615 Td (- Tech: Next.js 14, React 18, TypeScript, Python, FastAPI, PostgreSQL) Tj ET",
 
         "BT /F2 9.2 Tf 0.12 0.23 0.54 rg 250 595 Td (Student OS - AI Academic Cockpit) Tj ET",
         "BT /F1 8.2 Tf 0.2 0.25 0.35 rg 250 583 Td (- Full-stack cockpit with AI study planner, Ebbinghaus readiness modeling,) Tj ET",

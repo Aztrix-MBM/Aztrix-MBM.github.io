@@ -23,28 +23,29 @@ export interface Project {
 export const projectsData: Project[] = [
   {
     id: "echoverse-ai",
-    title: "EchoVerse AI",
+    title: "EchoVerse AI – Alternate Reality Engine",
     categoryTag: "AI / GENAI",
     category: "AI / GenAI",
-    oneLiner: "A generative AI platform to explore past, parallel reality and future.",
-    role: "Lead Full-Stack & Generative AI Developer",
-    stack: ["React", "FastAPI", "Python", "Google Gemini API", "Tailwind CSS", "WebSockets"],
-    problemSolved: "Traditional storytelling and speculative worldbuilding are static. EchoVerse AI provides an interactive multi-agent generative canvas where users choose temporal pivot points to simulate branching alternate realities and timeline continuations with real-time streaming narrative intelligence.",
+    oneLiner: "Every choice creates an echo. An interactive generative platform for reflective dialogue with an alternate version of yourself.",
+    role: "Lead Full-Stack & Generative AI Architect",
+    stack: ["Next.js 14", "React 18", "TypeScript", "Python", "FastAPI", "PostgreSQL", "Tailwind CSS", "Framer Motion"],
+    problemSolved: "Traditional storytelling and speculative worldbuilding are static, while generic chatbots lack introspective depth. EchoVerse AI provides an interactive reflective platform where users simulate branching alternate life paths, conversing in real-time with an alternate self conditioned on counterfactual life choices.",
     features: [
-      "Dynamic multi-agent temporal simulation across 3 distinct timeline states (Past, Parallel Reality, Future)",
-      "High-throughput streaming response architecture via FastAPI & WebSockets",
-      "Interactive node-graph visualizer representing branching historical divergence points",
-      "Memory-augmented context retention for recursive dilemma exploration"
+      "Parallel Self Simulation: Adaptive cognitive persona modeling enabling deep, introspective 'what if' dialogue",
+      "Streaming Response Architecture: Ultra-low latency token streaming powered by FastAPI and modern async event conduits",
+      "Anonymous Session Lifecycle: Instant UUID-based ephemeral sessions with one-tap instant data erasure",
+      "Reflective Echo Synthesis: Dynamic extraction and generation of personalized takeaway 'Echoes' from the conversation",
+      "Immersive Cyber-Minimalist UI: Fluid transitions built with Next.js 14 App Router, Tailwind CSS, and Framer Motion"
     ],
-    image: "/images/echoverse-ai.svg",
+    image: "/images/echoverse-ai.png",
     liveUrl: "https://echoverse-ai.vercel.app",
     repoUrl: "https://github.com/Aztrix-MBM/echoverse-ai",
     featured: true,
     accentColor: "var(--color-purple)",
     details: {
-      overview: "EchoVerse AI pushes the boundaries of human-AI speculative simulation by letting users step into historical turning points or futuristic horizons, interacting dynamically with adaptive synthetic personas.",
-      architecture: "Client built with React and modular state engines; backend powered by high-concurrency FastAPI serving structured LLM prompts with token streaming, cached vector memory, and schema-validated timeline outputs.",
-      impact: "Showcased in collegiate AI exhibition with over 200+ simulated narrative branches generated during live demonstration."
+      overview: "EchoVerse AI pushes the boundaries of human-AI reflective interaction. Rather than acting as a standard assistant, it models a counterfactual alternate self based on a user's pivotal life choice, fostering meaningful self-reflection and decision exploration.",
+      architecture: "Decoupled full-stack system featuring a Next.js 14 / TypeScript / Framer Motion client on Vercel streaming real-time tokens from a high-performance Python FastAPI backend, backed by PostgreSQL persistence with strict ephemeral privacy guarantees.",
+      impact: "Live production deployment at echoverse-ai.vercel.app with multi-turn streaming alternate persona simulations."
     }
   },
   {

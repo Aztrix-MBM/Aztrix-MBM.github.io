@@ -195,14 +195,14 @@ export const ResumeSection: React.FC = () => {
                   
                   <div className="ref-resume-project-item">
                     <h4 className="ref-resume-proj-title">
-                      EchoVerse AI <span className="ref-resume-dev-badge">(In Development)</span>
+                      EchoVerse AI – Alternate Reality Engine
                     </h4>
                     <ul className="ref-resume-bullet-list">
                       <li>
-                        Developed a generative AI platform featuring dynamic timeline simulation across branching realities,
-                        low-latency streaming narrative intelligence, and interactive divergence visualization.
+                        Engineered a reflective generative AI platform enabling real-time streaming dialogue with counterfactual
+                        alternate selves, featuring instant UUID sessions and personalized takeaway synthesis.
                       </li>
-                      <li className="ref-resume-tech-line">Tech: Python, FastAPI, React, Google Gemini API</li>
+                      <li className="ref-resume-tech-line">Tech: Next.js 14, React 18, TypeScript, Python, FastAPI, PostgreSQL</li>
                     </ul>
                   </div>
 
